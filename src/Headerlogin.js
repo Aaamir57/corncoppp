@@ -22,10 +22,12 @@ export default function Headerlogin() {
             <Nav.Link href="#action1"  className='hover-line'>Product</Nav.Link>
             <Nav.Link href="#action1"  className='hover-line'>Sellers</Nav.Link>
             
-          </Nav>
-          <Form className="d-flex navvvv" >
             <Button variant="outline-success navbar-button"><Nav.Link href="/signup" className='navbar-button-text'>join the venture</Nav.Link></Button>
-          </Form>
+        
+            
+          </Nav>
+          
+
         </Navbar.Collapse>
       </Container>
     </Navbar>

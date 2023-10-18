@@ -50,11 +50,10 @@ export default function Header() {
             <Nav.Link href="#action1" className='hover-line'>Home</Nav.Link>
             <Nav.Link href="#action1"  className='hover-line'>Product</Nav.Link>
             <Nav.Link href="#action1"  className='hover-line'>Sellers</Nav.Link>
+            <Button variant="outline-success navbar-button" className='navbar-button'><Nav.Link href="/login" className='navbar-button-text'>Login</Nav.Link></Button>
             
           </Nav>
-          <Form className="d-flex navvvv" >
-            <Button variant="outline-success navbar-button"><Nav.Link href="/login" className='navbar-button-text'>Login</Nav.Link></Button>
-          </Form>
+          
         </Navbar.Collapse>
       </Container>
     </Navbar>

@@ -9,7 +9,7 @@ export default function Signupone() {
             <Header/>
             <div class="container-fluid text-center">
                 <div class="row">
-                    <div class="col main-div-left signupone">
+                    <div class="col-lg-6 main-div-left signupone">
                         <div class="signup-text">
                             <h1>Life Is Better<br />With AI</h1>
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing<br /> elit. At elementum eu facilisis sed odio morbi. Massa <br />vitae tortor condimentum lacinia quis vel.</p>
@@ -18,7 +18,7 @@ export default function Signupone() {
                             <img src="./media/2.png"/>
                         </div>
                     </div>
-                    <div class="col">
+                    <div class="col-lg-6">
                         <div class="main-div-right signup-height">
                             <div>
                                 <h1>Join Our Venture</h1>

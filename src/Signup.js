@@ -19,7 +19,7 @@ export default function Signup() {
                                     <div class="butoon-css">
 
                                         <img src="./media/7.svg" />
-                                        <a href="">
+                                        <a href="/login">
                                             I am a savvy shopper, I
                                             want to join as a buyer
                                         </a>
@@ -33,7 +33,7 @@ export default function Signup() {
                                     <div class="butoon-css">
 
                                         <img src="./media/8.svg" class="firstbutton" />
-                                        <a href="">
+                                        <a href="/signupone" className='firstbuttons'>
                                             I am an enterprenuer,
                                             I want to join as a seller
                                         </a>

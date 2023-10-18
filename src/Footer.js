@@ -15,8 +15,8 @@ export default function Footer() {
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
                         </div>
                     </div>
-                    <div class="col-lg-3 col-mid-4 col-sm-4">
-                        <div class="footer footer1">
+                    <div class="col-lg-3 col-mid-4 col-sm-4 " >
+                        <div class="footer lastfooter1">
                             <a href=""> Links</a>
                             <a href="">Home</a>
                             <a href="">Privacy Policy</a>
@@ -27,7 +27,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div class="col-lg-2 col-mid-4 col-sm-4" >
-                        <div class="footer">
+                        <div class="footer lastfooter2">
                             <a href="">About Us</a>
                             <a href="">Buisness Model</a>
                             <a href="">Investor Relation</a>
@@ -37,7 +37,7 @@ export default function Footer() {
                         </div>
                     </div>
                     <div class="col-lg-2 col-mid-4 col-sm-4">
-                        <div class="footer">
+                        <div class="footer lastfooter">
                             <a href="">Contact Us</a>
                             <a href="">30B, Boeza building, Sub City, Ethopia.</a>
                             <a href="">+1-098-9876622</a>
@@ -50,17 +50,18 @@ export default function Footer() {
             </div>
 
 
-            <div class="container-fluid text-center">
-                <div class="row">
-                    <div class="col">
+            <div class="container-fluid text-center bottom-footers">
+                <div class="row ">
+                    <div class="col ">
                         <div class="bottom-footer">
                             <p>All copyrights reserved</p>
-                            <img src="./media/3.png"/>
+                            <img src="./media/20.svg"/>
                         </div>
                     </div>
 
                 </div>
             </div>
+            
 
 
 

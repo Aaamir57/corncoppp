@@ -5,8 +5,9 @@
 }
 
 .navvvv {
-	position: relative;
-	right: -50%;
+	position: absolute;
+	top: 20px;
+	right: 0px;
 }
 
 .navbar-image {
@@ -30,9 +31,13 @@
 .navbar-button:hover,
 .navbar-button:focus-visible {
 	background: #9803FA;
-	color: black;
+	color: black !important;
 }
-
+.navbar-button-text:hover,
+.navbar-button-text:focus-visible {
+	background: #9803FA;
+	color: white  !important;
+}
 .navbar-button :hover {
 	color: white;
 }
@@ -47,7 +52,7 @@
 
 .navbar-button-text {
 
-	color: #9803FA;
+	color: #9803FA !important;
 	font-family: Roboto;
 	font-size: 14px;
 	font-style: normal;
@@ -104,7 +109,7 @@
 
 
 
-
+ */
 
 
 
@@ -115,16 +120,11 @@
 
 .main-div-left {
 	padding-left: 10%;
-
-
-
-
 }
 
 .signup-text {
-
 	margin-bottom: 20%;
-
+	padding-left: 20%;
 }
 
 .signup-text h1 {
@@ -134,8 +134,8 @@
 	font-style: normal;
 	font-weight: 600;
 	line-height: 113.687%;
-	/* 51.159px */
 	text-align: left;
+	
 }
 
 .signup-text p {
@@ -153,7 +153,8 @@
 	display: flex;
 
 	margin-top: 10%;
-	margin-bottom: 20%;
+	margin-left: 10%;
+	
 
 
 
@@ -184,8 +185,7 @@
 	width: 98%;
 	height: 105%;
 	max-width: 583px;
-
-
+	
 	flex-shrink: 0;
 	border-radius: 10px;
 	background: #FFF;
@@ -197,7 +197,7 @@
 .main-form-css {
 	display: flex;
 	flex-direction: row;
-	gap: 10%;
+	gap: 5%;
 	margin-left: 5%;
 
 	margin-top: 5%;
@@ -232,11 +232,14 @@
 }
 
 .form-css input {
-	width: 120%;
+	width: 95%;
+	min-width: 230px;
+	min-height: 51px;
 	height: 51px;
 	flex-shrink: 0;
-	border-radius: 7px;
-	border: 1px solid #9D40B1;
+	
+	border-radius: 5px;
+border: 1px solid #D3D3D3;
 
 }
 
@@ -254,11 +257,11 @@
 }
 
 .form-css-block input {
-	width: 95%;
+	width: 96%;
 	height: 51px;
 	flex-shrink: 0;
-	border-radius: 7px;
-	border: 1px solid #9D40B1;
+	border-radius: 5px;
+    border: 1px solid #D3D3D3;
 }
 
 .bb {
@@ -278,8 +281,11 @@
 }
 
 .main-div-right-button {
-	width: 50%;
-	height: 45px;
+	min-width: 270px;
+	max-width: 300px;
+	width: 70%;
+height: 45px;
+
 	margin-top: 10%;
 	flex-shrink: 0;
 	border: 1px solid #3F0065;
@@ -316,12 +322,13 @@
 }
 
 .main-div-right-image img {
-	width: 34px;
-	height: 34px;
-	flex-shrink: 0;
+	
 	margin-top: 5%;
-	gap: 5%;
-	padding-left: 10px;
+	gap: 10%;
+	padding-left: 30px;
+	width: 60px;
+height: 60px;
+flex-shrink: 0;
 }
 
 @media (max-width: 992px) {
@@ -338,7 +345,7 @@
 	}
 
 	.form-css-block input {
-		width: 98%;
+		width: 95%;
 	}
 
 	.form-css input {
@@ -355,6 +362,7 @@
 
 	.main-div-right {
 		height: 101%;
+		padding-right: 2%;
 	}
 }
 
@@ -378,6 +386,8 @@
 		left: 50%;
 		transform: translate(-50%, -50%);
 		height: 105%;
+	}.form-css-block input{
+		width: 88%;
 	}
 }
 
@@ -424,11 +434,10 @@
 	text-align: left;
 	padding-top: 5%;
 	width: 138.25px;
-	height: 38.444px;
+	height: 30.444px;
 	flex-shrink: 0;
 	text-decoration: none;
-	position: relative;
-	right: -30%;
+	
 
 }
 
@@ -497,6 +506,16 @@
 		display: none;
 
 	}
+	.firstfooter{
+		position: relative;
+		right: 20%;
+		
+	}
+	.lastfooter1{
+		margin-left: 10%;
+	}.lastfooter2{
+		margin-left: -20%;
+	}
 }
 
 @media (max-width: 992px) {
@@ -509,7 +528,17 @@
 @media (max-width: 600px) {
 	.footer a:first-child {
 
-		margin-bottom: 0px;
+		margin-top: 10%;
+
+	}
+}
+
+@media (max-width: 600px) {
+	.footer a {
+
+		
+		position: relative;
+		left: 35%;
 
 
 	}
@@ -517,9 +546,9 @@
 
 
 
-.bottom-footer {
-	/*display: flex;
-	flex-direction: row;*/
+
+.bottom-footers {
+	
 	background: #630078;
 	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 	width: 100%;
@@ -527,8 +556,9 @@
 	padding-top: 2%;
 	margin-top: 5%;
 	flex-shrink: 0;
-
+	
 }
+
 
 .bottom-footer p {
 	color: #FFF;
@@ -551,9 +581,10 @@
 .bottom-footer img {
 	width: 102px;
 	float: right;
-	height: 13px;
+	height: 30px;
 	flex-shrink: 0;
-	margin-right: 6%;
+	margin-right: 3%;
+
 
 }
 
@@ -636,14 +667,30 @@
 }
 
 .form-csss input {
-	width: 150%;
+	width: 100%;
 	height: 51px;
+	min-width: 259px;
 	flex-shrink: 0;
 	border-radius: 7px;
 	border: 1px solid #9D40B1;
 
 }
 
+
+@media (max-width: 600px){
+	
+.main-form-csss {
+	display: flex;
+	flex-direction: row;
+	gap: 17%;
+	margin-left: 5%;
+	padding-left: 5%;
+	margin-top: 5%;
+}.loginn{
+	position: relative;
+	right: 3%;
+}
+}
 
 
 
@@ -670,7 +717,7 @@
 	gap: 5%;
 }
 .signup-images img{
-	width: 518px;
+	width: 500px;
 height: 462px;
 flex-shrink: 0;
 }
@@ -692,12 +739,14 @@ text-align: left;
 
 .signupone{
 	margin-top: 5%;
+	
 }
 
 
 .signup-height{
 	height: 100%;
 	width: 100%;
+	
 	
 }
 

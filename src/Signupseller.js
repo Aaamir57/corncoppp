@@ -126,10 +126,10 @@ export default function Signupseller() {
                                             <span class="main-div-right-text">Continue signing in with</span>
                                             <div class="main-div-right-image">
                                                 <img src="./media/4.svg"/>
-                                                    <img src="./media/5.svg"/>
-                                                        <img src="./media/6.svg"/>
-                                                        </div>
-                                                    </form>
+                                                <img src="./media/5.svg"/>
+                                                <img src="./media/6.svg"/>
+                                            </div>
+                                        </form>
                                             </div>
 
                                         </div>
