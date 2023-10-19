@@ -6,20 +6,20 @@ import Headerlogin from './Headerlogin'
 export default function Login() {
     return (
         <div>
-            <Headerlogin/>
-            <br/>
+            <Headerlogin />
+            <br />
             <div class="container-fluid text-center">
                 <div class="row">
 
                     <div class="col-lg-6 main-div-left">
-                        <br/><br/>
+                        <br /><br />
                         <div class="signup-text">
                             <h1>Great to have you back!</h1>
                             <p>
                                 You can sign in with your existing account.</p>
                         </div>
                         <div class="signup-images">
-                            <img src="./media/10.svg"/>
+                            <img src="./media/10.svg" />
 
 
                         </div>
@@ -31,45 +31,47 @@ export default function Login() {
                                 <form>
 
                                     <div class="main-form-csss">
-                                        <div class="form-csss">
+                                        <div class="form-csss   signupsellerform-cssss">
                                             <label>Email</label>
-                                            <input type="text" name=""/>
+                                            <input type="text" name="" />
                                         </div>
 
                                     </div>
 
 
 
-                                    <div class="main-form-csss">
-                                        <div class="form-csss">
+                                    <div class="main-form-csss ">
+                                        <div class="form-csss  signupsellerform-cssss">
                                             <label>Password</label>
-                                            <input type="text" name=""/>
+                                            <input type="text" name="" />
                                         </div>
 
                                     </div>
 
                                     <button class="main-div-right-button loginn"><a href="">  Login</a></button>
-                                    <hr class="line"/>
-                                        <span class="main-div-right-text">Continue signing in with</span>
-                                        <div class="main-div-right-image">
-                                            <img src="./media/4.svg"/>
-                                                <img src="./media/5.svg"/>
-                                                    <img src="./media/6.svg"/>
-                                                    </div>
-                                                </form>
-                                        </div>
-
+                                    <div className='line-div'>
+                                        <hr class="line" /><p>or</p><hr class=" line2" />
                                     </div>
+                                    <span class="main-div-right-text">Continue signing in with</span>
+                                    <div class="main-div-right-image">
+                                        <img src="./media/4.svg" />
+                                        <img src="./media/5.svg" />
+                                        <img src="./media/6.svg" />
+                                    </div>
+                                </form>
                             </div>
 
                         </div>
                     </div>
-                    <Footer/>
-                    
-
-
-
 
                 </div>
-                )
+            </div>
+            <Footer />
+
+
+
+
+
+        </div>
+    )
 }

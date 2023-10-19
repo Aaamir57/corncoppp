@@ -6,7 +6,7 @@ export default function Signupone() {
     return (
         <div>
 
-            <Header/>
+            <Header />
             <div class="container-fluid text-center">
                 <div class="row">
                     <div class="col-lg-6 main-div-left signupone">
@@ -15,7 +15,7 @@ export default function Signupone() {
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing<br /> elit. At elementum eu facilisis sed odio morbi. Massa <br />vitae tortor condimentum lacinia quis vel.</p>
                         </div>
                         <div class="signup-images">
-                            <img src="./media/2.png"/>
+                            <img src="./media/2.png" />
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -24,19 +24,19 @@ export default function Signupone() {
                                 <h1>Join Our Venture</h1>
                                 <form>
                                     <div class="main-form-css">
-                                        <div class="form-css">
+                                        <div class="form-css signupsellerform-css">
                                             <label>First name</label>
-                                            <input type="text" name=""/>
+                                            <input type="text" name="" />
                                         </div>
-                                        <div class="form-css">
+                                        <div class="form-css signupsellerform-css">
                                             <label>Last Name</label>
-                                            <input type="text" name=""/>
+                                            <input type="text" name="" />
                                         </div>
                                     </div>
                                     <div class="main-form-css">
-                                        <div class="form-css">
+                                        <div class="form-css email-css signupsellerform-css">
                                             <label>Email</label>
-                                            <input type="text" name=""/>
+                                            <input type="text" name="" />
                                         </div>
 
                                     </div>
@@ -44,34 +44,36 @@ export default function Signupone() {
 
 
                                     <div class="main-form-css">
-                                        <div class="form-css">
+                                        <div class="form-css signupsellerform-css">
                                             <label>Password</label>
-                                            <input type="text" name=""/>
+                                            <input type="text" name="" />
                                         </div>
-                                        <div class="form-css">
+                                        <div class="form-css signupsellerform-css">
                                             <label>Confirm Password</label>
-                                            <input type="text" name=""/>
+                                            <input type="text" name="" />
                                         </div>
                                     </div>
                                     <button class="main-div-right-button"><a href="">  Create an account</a></button>
-                                    <hr class="line"/>
-                                        <span class="main-div-right-text">Continue signing in with</span>
-                                        <div class="main-div-right-image">
-                                            <img src="./media/4.svg"/>
-                                                <img src="./media/5.svg"/>
-                                                    <img src="./media/6.svg"/>
-                                                    </div>
-                                </form>
-                                        </div>
-
+                                    <div className='line-div'>
+                                        <hr class="line" /><p>or</p><hr class=" line2" />
                                     </div>
+                                    <span class="main-div-right-text">Continue signing in with</span>
+                                    <div class="main-div-right-image">
+                                        <img src="./media/4.svg" />
+                                        <img src="./media/5.svg" />
+                                        <img src="./media/6.svg" />
+                                    </div>
+                                </form>
                             </div>
 
                         </div>
                     </div>
-                    
-                    <Footer/>
 
                 </div>
-                )
+            </div>
+
+            <Footer />
+
+        </div>
+    )
 }

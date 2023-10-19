@@ -3,13 +3,49 @@
 	padding: 0px;
 	box-sizing: border-box;
 }
-
+.bggg{
+background-color: #000;
+background: #000;
+border-radius: 2px soild red;
+}
 .navvvv {
 	position: absolute;
 	top: 20px;
 	right: 0px;
 }
+@media (max-width: 810px) {
+	.navvvv {
+		position: absolute;
+		top: 20px;
+		right: 0px;
+		background: whitesmoke;
+		border: 1px solid  #9803FA !important;
+		border-radius:10px ;
+		z-index: 1;
+		height: 200px;
+		width: 100%;
+		padding-top: 3%;
+		
+	}
+}
 
+@media (min-width: 470px) and (max-width: 600px){
+	.navbar-button{
+		position: relative;
+		left: 40px;
+		max-width: 180px;
+	}
+}
+
+@media (min-width: 360px) and (max-width: 475px){
+	.navbar-button{
+		position: relative;
+		left: 10px;
+		max-width: 150px;
+		margin-left: 20%;
+		margin-right: 20%;
+	}
+}
 .navbar-image {
 	position: relative;
 	right: -10%;
@@ -64,7 +100,7 @@
 }
 
 .hover-line {
-	color: #6E6E6E;
+	color: red;
 	font-family: Roboto;
 	font-size: 16px;
 	font-style: normal;
@@ -232,8 +268,8 @@
 }
 
 .form-css input {
-	width: 95%;
-	min-width: 230px;
+	width: 93%;
+	min-width: 190px;
 	min-height: 51px;
 	height: 51px;
 	flex-shrink: 0;
@@ -242,7 +278,27 @@
 border: 1px solid #D3D3D3;
 
 }
+@media (min-width: 992px) {
+	.signupsellerform-css{
+		min-width: 200px;
+		
+		width: 98%;
+	}
 
+
+}
+
+@media (min-width: 610px) and (max-width: 992px) {
+	.signupsellerform-css input{
+		min-width: 250px;
+		
+		width: 100%;
+	}.signupsellerform-csss input{
+		width: 140%;
+		min-width: 530px;
+	}
+
+}
 .main-form-css-block {
 	display: flex;
 	flex-direction: column;
@@ -302,13 +358,37 @@ height: 45px;
 	line-height: normal;
 	text-decoration: none;
 }
+.line-div{
+	display: flex;
 
+	flex-direction: row;
+	
+	margin-top: 10%;
+}
 .line {
 	background: #BDBDBD;
-	width: 80%;
+	width: 50%;
 	height: 2px;
-	margin-left: 10%;
-	margin-top: 10%;
+	
+	margin-left: 8%;
+	
+}
+.line2 {
+	background: #BDBDBD;
+	width: 50%;
+	height: 2px;
+	
+	margin-right: 8%;
+	
+}
+.line-div p{
+	color: rgb(189, 189, 189);
+  font-family: Roboto;
+  font-size: 0.8125rem;
+  
+  font-weight: 400;
+  margin-top: 1%;
+  
 }
 
 .main-div-right-text {
@@ -337,29 +417,16 @@ flex-shrink: 0;
 	}
 
 }
+@media (max-width: 610px) {
 
-@media (max-width: 768px) {
 	.main-form-css {
 		display: flex;
 		flex-direction: column;
 	}
+}
 
-	.form-css-block input {
-		width: 95%;
-	}
-
-	.form-css input {
-		width: 98%;
-	}
-
-	.form-css {
-		margin-top: 5%;
-	}
-
-	.form-css-block {
-		margin-top: 5%;
-	}
-
+@media (max-width: 768px) {
+	
 	.main-div-right {
 		height: 101%;
 		padding-right: 2%;
@@ -378,7 +445,7 @@ flex-shrink: 0;
 	}
 }
 
-@media (min-width: 768px) and (max-width: 992px) {
+@media (min-width: 610px) and (max-width: 992px) {
 	.main-div-right {
 
 		position: relative;
@@ -521,19 +588,21 @@ flex-shrink: 0;
 @media (max-width: 992px) {
 	.footerimage {
 		margin-bottom: 7%;
+		
 	}
+	
 
 }
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 	.footer a:first-child {
 
 		margin-top: 10%;
 
 	}
-}
+} */
 
-@media (max-width: 600px) {
+/* @media (max-width: 600px) {
 	.footer a {
 
 		
@@ -542,9 +611,94 @@ flex-shrink: 0;
 
 
 	}
+} */
+@media (min-width: 770px) and (max-width: 992px) {
+.main-footer{
+	margin-left: 8%;
+}.footerimage img {
+	margin-right: 20%;
 }
+}
+@media (min-width: 390px) and (max-width: 769px) {
+	.footerimage img {
+		margin-right: 5%;
+	}
+	}
+
+@media (min-width: 200px) and (max-width: 389px) {
+.footerimage img {
+			margin-right: 90%;
+		}
+		}
+@media (min-width: 992px) {
+.firstfooter{
+	margin-left: 20%;
+}
+}
+@media (min-width: 390px) and (max-width: 576px) {
+	.main-footer{
+		display: flex;
+		flex-direction: row;
+		object-fit: cover;
+		
+		margin-left: 5%;
+		margin-right: 5%;
+	}.first1{
+		flex: 1;
+		
+		width: 50px;
+		padding-left: 0%;
+		
+	}
+	.first2{
+		flex: 1;
+		
+		width: 50px;
+		padding-left: 0%;
+	}
+	.first3{
+		flex: 1;
+		
+		width: 50px;
+		
+		object-fit: cover;
+		padding-left: 0%;
+	
+	}
+	}
 
 
+	@media (max-width: 390px) {
+		.main-footer{
+			display: flex;
+			flex-direction: row;
+			object-fit: cover;
+			
+			margin-left: 5%;
+			margin-right: 5%;
+		}.first1{
+			flex: 1;
+			
+			width: 50px;
+			padding-left: 0%;
+			width: fit-content;
+		}
+		.first2{
+			flex: 1;
+			width: fit-content;
+			width: 50px;
+			padding-left: 0%;
+		}
+		.first3{
+			flex: 1;
+			
+			width: 50px;
+			
+			width: fit-content;
+			padding-left: 0%;
+		
+		}
+		}
 
 
 .bottom-footers {
@@ -595,25 +749,21 @@ flex-shrink: 0;
 
 @media (max-width: 810px) {
 
-	.bottom-footer img {
-		margin-top: 1%;
-	}
+	
 
 	.bottom-footer p {
-		margin-top: 1%;
+		
 	}
+
 
 }
 
 
 @media (max-width: 600px) {
 
-	.bottom-footer img {
-		margin-top: 6%;
-	}
 
 	.bottom-footer p {
-		margin-top: 6%;
+		margin-top: 3%;
 	}
 
 }
@@ -625,8 +775,7 @@ flex-shrink: 0;
 
 .login-height {
 	height: 100%;
-	
-	
+
 }
 
 .main-form-csss {
@@ -634,7 +783,7 @@ flex-shrink: 0;
 	flex-direction: row;
 	gap: 17%;
 	margin-left: 5%;
-	padding-left: 20%;
+	
 	margin-top: 5%;
 }
 
@@ -669,14 +818,47 @@ flex-shrink: 0;
 .form-csss input {
 	width: 100%;
 	height: 51px;
-	min-width: 259px;
+	
 	flex-shrink: 0;
-	border-radius: 7px;
-	border: 1px solid #9D40B1;
-
+	
+	border-radius: 5px;
+border: 1px solid #D3D3D3;
 }
 
 
+
+
+
+
+
+
+@media (max-width: 992px) {
+	.signupsellerform-cssss{
+		min-width: 200px;
+		
+		width: 80%;
+		margin-left: 9%;
+	}
+
+
+}
+@media (min-width: 991px) {
+	.signupsellerform-cssss{
+		min-width: 200px;
+		
+		width: 80%;
+		margin-left: 9%;
+	}
+
+
+}
+
+@media (min-width: 360px) and (max-width: 400px) {
+
+	.loginn{
+		margin-left: 5%;
+	}
+}/*
 @media (max-width: 600px){
 	
 .main-form-csss {
@@ -684,17 +866,43 @@ flex-shrink: 0;
 	flex-direction: row;
 	gap: 17%;
 	margin-left: 5%;
-	padding-left: 5%;
+	padding-left: 14%;
 	margin-top: 5%;
-}.loginn{
-	position: relative;
-	right: 3%;
+}
+.login-height h1{
+	margin-right: 15px;
+}
+.form-csss{
+	padding-left: 6%;
+}
+.loginn{
+	margin-left: 5%;
 }
 }
+@media (max-width: 474px){
+	.loginn{
+		margin-left: 15%;
+	}
+}
 
+@media (min-width: 992px) {
+.login-height{
+	height: 80%;
+}
 
+}
 
+@media (min-width: 650px) and (max-width: 992px) {
 
+	.form-csss input{
+		width: 100%;
+		min-width: 320px;
+	}
+	.loginn{
+		min-width: 320px;
+		margin-left: 30px;
+	}
+} */
 
 /* signupone */
 
@@ -752,7 +960,12 @@ text-align: left;
 
 
 
-
+@media (min-width: 992px) {
+	.email-css input{
+		width: 100%;
+		
+	}
+	}
 
 
 
@@ -982,4 +1195,9 @@ line-height: normal;
 	height: 40px;
 	margin-top: 15%;
 }
+}
+
+.bottom-buuton-login{
+color:#9600AF;
+text-decoration: none;
 }

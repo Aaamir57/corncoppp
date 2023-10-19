@@ -41,88 +41,91 @@ export default function Signupseller() {
                                     <h1>Join Our Venture</h1>
                                     <form>
                                         <div class="main-form-css">
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>First name</label>
                                                 <input type="text" name=""/>
                                             </div>
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>Last Name</label>
                                                 <input type="text" name=""/>
                                             </div>
                                         </div>
-                                        <div class="main-form-css">
-                                            <div class="form-css">
+                                        <div class="main-form-css ">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>Email</label>
                                                 <input type="text" name=""/>
                                             </div>
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>Phone</label>
                                                 <input type="text" name=""/>
                                             </div>
                                         </div>
                                         <div class="main-form-css">
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>House Number</label>
                                                 <input type="text" name=""/>
                                             </div>
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>Street</label>
                                                 <input type="text" name=""/>
                                             </div>
                                         </div>
                                         <div class="main-form-css">
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>Country</label>
                                                 <input type="text" name=""/>
                                             </div>
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>City</label>
                                                 <input type="text" name=""/>
                                             </div>
                                         </div>
-                                        <div class="main-form-css">
-                                            <div class="form-css">
+                                        <div class="main-form-css ">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>Company Name</label>
                                                 <input type="text" name=""/>
                                             </div>
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>Company Email</label>
                                                 <input type="text" name=""/>
                                             </div>
                                         </div>
                                         <div class="main-form-css-block">
-                                            <div class="form-css-block">
+                                            <div class="form-css-block signupsellerform-csss">
                                                 <label>Credit Card Number</label>
                                                 <input type="text" name=""/>
                                             </div>
-                                            <div class="form-css-block bb">
+                                            <div class="form-css-block bb signupsellerform-csss">
                                                 <label>Card Holder's Name</label>
                                                 <input type="text" name=""/>
                                             </div>
                                         </div>
                                         <div class="main-form-css">
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>Expiry Date</label>
                                                 <input type="text" name=""/>
                                             </div>
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>CCV</label>
                                                 <input type="text" name=""/>
                                             </div>
 
                                         </div>
                                         <div class="main-form-css">
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>Password</label>
                                                 <input type="text" name=""/>
                                             </div>
-                                            <div class="form-css">
+                                            <div class="form-css signupsellerform-css">
                                                 <label>Confirm Password</label>
                                                 <input type="text" name=""/>
                                             </div>
                                         </div>
                                         <button class="main-div-right-button"><a href="">  Create an account</a></button>
-                                        <hr class="line"/>
+                                        <div className='line-div'>
+                                            <hr class="line"/><p>or</p><hr class=" line2"/>
+                                        </div>
+                                        
                                             <span class="main-div-right-text">Continue signing in with</span>
                                             <div class="main-div-right-image">
                                                 <img src="./media/4.svg"/>
@@ -138,6 +141,7 @@ export default function Signupseller() {
 
                             </div>
                         </div>
+                        <br/>
                         <Footer/>
 
                     </div>

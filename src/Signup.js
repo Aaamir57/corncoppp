@@ -45,7 +45,7 @@ export default function Signup() {
                             </div>
                             <div class="bottom-button">
                                 <button> <a href="">Continue</a> </button>
-                                <p>Already have an account? <a href=""> login</a> </p>
+                                <p>Already have an account? <a href="" className='bottom-buuton-login'> login</a> </p>
                             </div>
 
 
