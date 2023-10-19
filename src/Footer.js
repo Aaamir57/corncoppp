@@ -39,7 +39,8 @@ export default function Footer() {
                     <div class="col-lg-2 col-mid-4 col-sm-4 first3">
                         <div class="footer lastfooter">
                             <a href="">Contact Us</a>
-                            <a href="">30B, Boeza building, Sub City, Ethopia.</a>
+                            <a href="">30B, Boeza building </a>
+                            <a href="">Sub City, Ethopia.</a>
                             <a href="">+1-098-9876622</a>
                             <a href="">cornucopia@gmail.com</a>
 

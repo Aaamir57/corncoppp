@@ -136,6 +136,7 @@ export default function Signupseller() {
                                             </div>
 
                                         </div>
+                                        
 
                                 </div>
 
