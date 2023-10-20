@@ -5,7 +5,7 @@ import React, { useState } from 'react';
 
 export default function Signup() {
     const [page, setPage] = useState('signup');
-
+    const [imageSrcsss, setImageSrcsss] = useState('./media/8.svg');
     const [imageSrcc, setImageSrcc] = useState('./media/8.svg');
     const [imageSrcccc, setImageSrcccc] = useState('./media/9.svg');
     const [imageSrc, setImageSrc] = useState('./media/8.svg');
@@ -31,6 +31,12 @@ export default function Signup() {
         setButtonColor('#9600AF');
         setContinueButtonColor('#9600AF');
         setPage('login');
+        setImageSrcsss('./media/50.svg');
+
+        ssetImageSrc('./media/7.svg');
+        ssetImageSrcccc('./media/9.svg');
+        ssetButtonColor('white');
+        ssetTextColor('#9600AF');
     };
     const handleButtonClicks = () => {
 
@@ -42,6 +48,14 @@ export default function Signup() {
         ssetButtonColor('#9600AF');
         setContinueButtonColor('#9600AF');
         setPage('signupone');
+
+
+
+        
+        setImageSrcccc('./media/9.svg');
+        setButtonColor('white');
+        setImageSrcsss('./media/8.svg');
+        setTextColor('#9600AF');
     };
 
 
@@ -64,10 +78,9 @@ export default function Signup() {
                                     <div class="butoon-css">
 
                                         <img class="firstbutton" src={imageSrcs} alt="Image" />
-                                        <a href="" className='firstbuttons' style={{ color: textColors }}>
-                                            I am a savvy shopper,
-                                            I want to join as a buyer
-                                        </a>
+                                        
+                                        <p className='firstbuttons' style={{ color: textColors }}> I am a savvy shopper,
+                                            I want to join as a buyer</p>
 
                                         <img src={imageSrccccs} class="arrowcss" />
 
@@ -80,11 +93,11 @@ export default function Signup() {
                                     style={{ backgroundColor: buttonColor }}>
                                     <div class="butoon-css">
 
-                                        <img class="firstbutton" src={imageSrc} alt="Image" />
-                                        <a href="" className='firstbuttons' style={{ color: textColor }}>
+                                        <img class="firstbutton" src={imageSrcsss} alt="Image" />
+                                        <p className='firstbuttons' style={{ color: textColor }}>
                                             I am an enterprenuer,
                                             I want to join as a seller
-                                        </a>
+                                        </p>
 
                                         <img src={imageSrcccc} class="arrowcss" />
 

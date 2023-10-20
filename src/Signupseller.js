@@ -8,8 +8,8 @@ export default function Signupseller() {
            
                 <Header/>
                 <br/><br/>
-                <div className="container-fluid text-center">
-                    <div className="row">
+                <div className="container-fluid text-center ">
+                    <div className="row aa">
                         <div className="col-lg-6 col-md-0 col-sm-0  main-div-left">
                             <div className="signup-text">
                                 <h1>Life Is Better<br />With AI</h1>
@@ -120,6 +120,16 @@ export default function Signupseller() {
                                                 <label>Confirm Password</label>
                                                 <input type="text" name=""/>
                                             </div>
+                                        </div>
+                                        <div className='main-box-signup '>
+                                            <div>
+                                                <p className='box-password'></p>
+                                            </div>
+                                            <div className='box11'>
+                                                <h2>Send me tips, trends, freebies, updates & offers.<br/> You can unsubscribe anytime.</h2>
+                                            </div>
+                                        
+                                       
                                         </div>
                                         <button class="main-div-right-button"><a href="">  Create an account</a></button>
                                         <div className='line-div'>

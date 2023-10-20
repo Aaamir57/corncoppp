@@ -47,6 +47,19 @@ export default function Login() {
                                         </div>
 
                                     </div>
+                                    <div className='main-password signupsellerform-cssss'>
+                                        <div>
+                                            <p className='box-password'></p>
+                                        </div>
+                                        <div className='box1'>
+                                            <h2> Remember password?</h2>
+                                        </div>
+                                        <div className='box2'>
+                                            <h2>forgot password?</h2>
+
+                                        </div>
+                                       
+                                    </div>
 
                                     <button class="main-div-right-button loginn"><a href="">  Login</a></button>
                                     <div className='line-div'>

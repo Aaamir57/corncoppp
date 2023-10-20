@@ -44,7 +44,7 @@ export default function Header() {
         <Navbar.Brand href="#">
           <img src="./media/1.png" alt="Logo" className='navbar-image'/>
         </Navbar.Brand>
-        <Navbar.Toggle aria-controls="navbarScroll" className=''/>
+        <Navbar.Toggle aria-controls="navbarScroll" className='toggle'/>
         <Navbar.Collapse id="navbarScroll" className='nab ' >
           <Nav className="navvvv "> {/* Use ml-auto to push Nav.Link items to the right */}
             <Nav.Link href="#action1" className='hover-line'>Home</Nav.Link>
