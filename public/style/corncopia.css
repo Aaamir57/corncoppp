@@ -1828,7 +1828,7 @@ width: 136px;
 
 
 
-::placeholder{
+.custominput::placeholder{
 	color: #646464;
 font-family: Poppins;
 font-size: 15px;
@@ -1836,13 +1836,11 @@ font-style: normal;
 font-weight: 400;
 line-height: 27px; /* 180% */
 position: relative;
-right: 90px;
+right: 900px;
 }
-::-ms-input-placeholder { /* Edge 12-18 */
-	color: red;
-	position: relative;
-	right: 90px;}
-
+.custominput{
+	padding-left: 2%;
+}
 
 
 
@@ -2033,6 +2031,17 @@ transform: translate(-50%,-50%); */
 		margin-right: 5%;
 	}
 	}
+	@media (min-width: 460px) and (max-width:620px) {
+		.main-search{
+			margin-top: 7%;
+			width: 90%;
+			padding-left: 3%;
+			
+			
+		}.searchicon{
+			margin-right: 5%;
+		}
+		}
 	@media (max-width: 465px) {
 		.main-search{
 			margin-top: 7%;

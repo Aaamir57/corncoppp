@@ -70,11 +70,11 @@ export default function Landingpage() {
 
                 </div>
             </div>
-            {/* <div class="container text-center">
+            <div class="container text-center">
                 <div class="row">
                     <div class="col">
                         <div className='main-search'>
-                            <input type="text" name=""  />
+                            <input type="text" name="" placeholder='How we can help you ?' className='custominput' />
                             <div className='searchicon'>
                                 <img src="./media/72.svg" />
                             </div>
@@ -82,7 +82,7 @@ export default function Landingpage() {
                     </div>
 
                 </div>
-            </div> */}
+            </div>
 
             <div class="container text-center">
                 <div class="row">
