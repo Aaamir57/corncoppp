@@ -11,6 +11,7 @@ import {
   Routes,
   Route,
 } from 'react-router-dom';
+import Landingpage from './Landingpage';
 
 function App() {
   return (
@@ -24,7 +25,8 @@ function App() {
       {/* <Footer />  */}
       <Router>
         <Routes>
-        ` <Route path="/" exact element={<Signupseller />} />
+          <Route path="/landingpage" exact element={<Landingpage />} />
+          <Route path="/" exact element={<Signupseller />} />
           <Route path="/signupone" exact element={<Signupone />} />
           <Route path="/signup" exact element={<Signup />} />
           <Route path="/login" exact element={<Login />} />
