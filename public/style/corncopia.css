@@ -2176,6 +2176,14 @@ height: 90px; */
 	padding-right: 5%;
 }
 
+@media  (min-width:992px) {
+	.main-search {
+		
+		padding-left: 2%;
+	
+		
+	}
+}
 .main-search input {
 	border-radius: 10px;
 	border: 1px solid #9D40B1;
@@ -2254,7 +2262,11 @@ transform: translate(-50%,-50%); */
 
 
 
-
+@media (min-width:992px) {
+	.trendingproduct{
+		padding-left: 2%;
+	}
+}
 
 
 
@@ -2264,7 +2276,22 @@ transform: translate(-50%,-50%); */
 	margin-top: 5%;
 	padding-left: 4%;
 }
-
+@media (min-width:992px) {
+	.trendingproduct{
+		padding-left: 2%;
+		
+	}
+}
+@media (min-width:1600px) {
+	.trendingproduct{
+		position: relative;
+		right: 5%;
+		
+	}.main-search{
+		position: relative;
+		right: 5%;
+	}
+}
 .trendingproducttext {
 	flex: 1;
 }
