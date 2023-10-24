@@ -214,7 +214,19 @@ export default function Productpage() {
                                             <input type="checkbox" />
                                             <span >Price Range</span>
                                         </label>
+                                        <div className='main-sliderange'>
+                                            <h1>Min</h1>
+                                            <input type="range" min="1" max="100" value="50" className='sliderange'/>
+                                            <h2>$0</h2>
 
+                                        </div>
+                                        <div className='main-sliderange'>
+                                            <h1>Max</h1>
+                                            <input type="range" min="1" max="100" value="50" className='sliderange'/>
+                                            <h2>$677</h2>
+
+                                        </div>
+                                       
 
 
                                         <label>
@@ -222,9 +234,11 @@ export default function Productpage() {
                                             <span >Free</span>
                                         </label>
                                     </div>
+                                   
 
 
                                 </div>
+                               
                                 <div className='btnnnsett'>
                                     <button className='clearbtn'>
                                         <a>Clear all</a>
