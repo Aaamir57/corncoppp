@@ -12,6 +12,7 @@ import {
   Route,
 } from 'react-router-dom';
 import Landingpage from './Landingpage';
+import Productpage from './Productpage';
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
       {/* <Footer />  */}
       <Router>
         <Routes>
+          <Route path="/productpage" exact element={<Productpage />} />
           <Route path="/landingpage" exact element={<Landingpage />} />
           <Route path="/" exact element={<Signupseller />} />
           <Route path="/signupone" exact element={<Signupone />} />

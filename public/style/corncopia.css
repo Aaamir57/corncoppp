@@ -2022,9 +2022,8 @@ height: 90px; */
 
 
 
-
 .discover-right {
-	margin-top: 40px;
+	margin-top: 20px;
 }
 
 
@@ -2219,7 +2218,7 @@ transform: translate(-50%,-50%); */
 	
 		
 	}.main-search input{
-		width: 99%;
+		width: 95%;
 	}
 	.searchicon{
 		position: relative;
@@ -2386,7 +2385,7 @@ transform: translate(-50%,-50%); */
 @media  (min-width:1600px) {
 	.trendingbutton{
 		position: relative;
-		right: -6%;
+		right: -8%;
 	}
 }
 @media (max-width: 465px) {
@@ -2681,7 +2680,10 @@ transform: translate(-50%,-50%); */
 	line-height: normal;
 }
 
-
+.setrow{
+	display: flex;
+	flex-direction: row;
+}
 .portfoliotext {
 	position: relative;
 	top: -22%;
@@ -3161,4 +3163,551 @@ transform: translate(-50%,-50%); */
 	}
 }
 
+.mmmmmm{
+	padding-top: 0%;
+	margin-top: 0%;
+	
+	position: relative;
+	top: 10px;
+}
 
+.mmmm{
+	padding-top: 0%;
+	margin-top: 0%;
+	
+	position: relative;
+	top: -8%;
+	padding: 0%;
+	padding-left: 3%;
+	padding-right: 3%;
+}
+.mmm{
+	margin-top: 5%;
+}
+.m{
+	margin-top: 3%;
+}
+.main-filter{
+	border-radius: 12px;
+border-top: 1px solid #9D40B1;
+background: #FFF;
+margin-top: 4%;
+box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.25);
+/* max-width: 1068px; */
+width: 95%;
+margin-left: 2%;
+height: 100%;
+flex-shrink: 0;
+}
+.filter{
+	border-radius: 12px 12px 0px 0px;
+border-top: 1px solid #9D40B1;
+background: #9D40B1;
+box-shadow: 0px 4px 11px 0px rgba(0, 0, 0, 0.31);
+/* width: 1068px; */
+height: 42px;
+display: grid;
+place-items: center;
+width: 100%;
+flex-shrink: 0;
+display: flex;
+justify-content: center;
+text-align: center;
+}
+.filter h1{
+	color: #FFF;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 102.5%; /* 16.4px */
+flex: 1;padding-top: 1%;
+letter-spacing: 0.16px;
+
+}
+.filter img{
+	width: 15px;
+height: 15px;
+justify-content: flex-end;
+
+margin-right: 2%;
+
+
+flex-shrink: 0;
+}
+
+.main-all-filters{
+	display: flex;
+	flex-direction: row;
+	
+	padding: 2%;
+	padding-left: 5%;
+	gap: 9%;
+	
+}
+.businessfilter6{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+	
+
+}
+.pricerange{
+	display: flex;
+	flex-direction: row;
+}
+.businessfilter2{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.businessfilter3{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.businessfilter{
+	display: flex;
+	flex-direction: column;
+	gap: 25px;
+}
+.businessfilter span{
+	margin-left: 9px;
+}
+.businessfilter label{
+	text-align: left;
+	justify-content: left;
+}
+
+
+
+.firstinputbusiness{
+	position: relative;
+	right: 20%;
+}
+.firstinputbusiness span{
+	color: #9D40B1;
+}
+
+.firstinputbusiness{
+	display: flex;
+	flex-direction: row;
+}
+
+
+
+.main-all-filters label{
+	color: #686868;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 102.5%; /* 13.325px */
+letter-spacing: 0.13px;
+}
+.main-all-filters input{
+	
+	border-radius: 1px;
+	background: #D9D9D9;
+	width: 16px;
+height: 16px;
+flex-shrink: 0;
+}
+input{
+	accent-color:#9D40B1 ;
+}
+.btnnnsett{
+	
+	display: flex;
+	justify-content: end;
+	gap: 2%;
+	padding-right: 5%;
+	margin-top: 2%;
+	
+}
+@media  (min-width: 1600px) and (max-width: 20000px) {
+
+	.main-all-filters{
+		gap: 8%;
+		padding-left: 5%;
+	}
+
+}
+@media  (min-width: 1400px) and (max-width: 1600px) {
+
+	.main-all-filters{
+		gap: 8%;
+		padding-left: 5%;
+	}
+
+}
+@media  (min-width: 1200px) and (max-width: 1400px) {
+
+	.main-all-filters{
+		gap: 6%;
+		padding-left: 6%;
+	}
+
+}
+@media  (min-width: 992px) and (max-width: 1200px) {
+
+	.main-all-filters{
+		gap: 4%;
+		padding-left: 6%;
+	}
+
+}
+@media  (min-width: 768px) and (max-width: 992px){
+	
+	.main-filter{
+		display: flex;
+		flex-direction: column;
+		object-fit: cover;
+		gap: 0px;
+		padding: 0%;
+		width: 100%;
+	}.main-all-filters{
+		display: flex;
+		flex-direction: column;
+		
+		padding: 2%;
+		
+	}	
+	
+
+	.businessfilter1{
+		display: flex;
+		flex-direction: row;
+		
+	}.businessfilter{
+		display: flex;
+		flex-direction: column;
+		
+		padding: 2%;
+		
+	}.businessfilter3{
+		display: flex;
+		flex-direction: row;
+		
+		
+	}
+	.businessfilter2{
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+		padding-left: 5%;
+		
+	}.businessfilter6{
+		display: flex;
+		flex-direction: row;
+		gap: 15px;
+		padding-left: 1%;
+		
+		
+
+	}
+	.firstinputbusiness{
+		position: relative;
+		right: 0%;
+	}
+	
+}
+@media  (min-width: 620px) and (max-width: 768px){
+	
+	.main-filter{
+		display: flex;
+		flex-direction: column;
+		object-fit: cover;
+		gap: 0px;
+		padding: 0%;
+		width: 103%;
+		
+	}.main-all-filters{
+		display: flex;
+		flex-direction: column;
+		
+		padding: 2%;
+		
+	}	
+	
+
+	.businessfilter1{
+		display: flex;
+		flex-direction: row;
+		
+		
+	}
+	.setrow{
+		margin-top: 10px;
+	}.businessfilter{
+		display: flex;
+		flex-direction: column;
+		
+		padding: 2%;
+		
+	}.businessfilter3{
+		display: flex;
+		flex-direction: row;
+		padding-right: 20%;
+		
+		
+	}
+	.businessfilter2{
+		display: flex;
+		flex-direction: column;
+		gap: 30%;
+		padding-left: 10%;
+		
+		padding-right: 10%;
+	}.businessfilter6{
+		display: flex;
+		flex-direction: column;
+		
+		gap: 30%;
+		padding-left: 10%;
+		padding-right: 10%;
+		
+
+	}
+	.firstinputbusiness{
+		position: relative;
+		right: 0%;
+	}
+	
+}
+@media  (min-width: 465px) and (max-width: 620px){
+	
+	.main-filter{
+		display: flex;
+		flex-direction: column;
+		object-fit: cover;
+		gap: 0px;
+		padding: 0%;
+		width: 95%;
+		
+	}.main-all-filters{
+		display: flex;
+		flex-direction: column;
+		
+		padding: 2%;
+		
+	}	
+	
+
+	.businessfilter1{
+		display: flex;
+		flex-direction: row;
+		margin-top: 10px;
+		
+	}
+	.setrow{
+		margin-top: 10px;
+	}.businessfilter{
+		display: flex;
+		flex-direction: column;
+		
+		padding: 2%;
+		
+	}.businessfilter3{
+		display: flex;
+		flex-direction: row;
+		padding-right: 20%;
+		
+		
+	}
+	.businessfilter2{
+		display: flex;
+		flex-direction: column;
+		gap: 30%;
+		padding-left: 10%;
+		
+		
+	}.businessfilter6{
+		display: flex;
+		flex-direction: column;
+		
+		gap: 30%;
+		padding-left: 10%;
+		padding-right: 10%;
+		
+
+	}
+	.firstinputbusiness{
+		position: relative;
+		right: 0%;
+	}
+	
+}
+
+@media  (min-width: 400px) and (max-width: 465px){
+	
+	.main-filter{
+		display: flex;
+		flex-direction: column;
+		object-fit: cover;
+		gap: 0px;
+		padding: 0%;
+		width: 90%;
+		margin-top: 15%;
+	}.main-all-filters{
+		display: flex;
+		flex-direction: column;
+		
+		padding: 2%;
+		
+	}	
+	
+
+	.businessfilter1{
+		display: flex;
+		flex-direction: row;
+		margin-top: 10px;
+		
+	}
+	.setrow{
+		margin-top: 10px;
+	}.businessfilter{
+		display: flex;
+		flex-direction: column;
+		
+		padding: 2%;
+		
+	}.businessfilter3{
+		display: flex;
+		flex-direction: row;
+		
+		
+		
+	}
+	.businessfilter2{
+		display: flex;
+		flex-direction: column;
+		
+		padding-left: 10%;
+		
+		
+	}.businessfilter6{
+		display: flex;
+		flex-direction: column;
+		
+		gap: 10%;
+		padding-left: 10%;
+		padding-right: 10%;
+		
+
+	}
+	.firstinputbusiness{
+		position: relative;
+		right: 0%;
+	}
+	
+}
+
+@media  (min-width: 360px) and (max-width: 400px){
+	
+	.main-filter{
+		display: flex;
+		flex-direction: column;
+		object-fit: cover;
+		gap: 0px;
+		padding: 0%;
+		width: 95%;
+		margin-top: 20%;
+	}.main-all-filters{
+		display: flex;
+		flex-direction: column;
+		
+		padding: 2%;
+		
+	}	
+	
+
+	.businessfilter1{
+		display: flex;
+		flex-direction: row;
+		margin-top: 10px;
+		
+	}
+	.setrow{
+		margin-top: 10px;
+	}.businessfilter{
+		display: flex;
+		flex-direction: column;
+		
+		padding: 2%;
+		
+	}.businessfilter3{
+		display: flex;
+		flex-direction: column;
+		padding-right: 20%;
+
+		
+		
+	}
+	.businessfilter2{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+		padding-left: 10%;
+		
+		padding-right: 10%;
+	}.businessfilter6{
+		display: flex;
+		flex-direction: column;
+		
+		gap: 20px;
+		padding-left: 10%;
+		padding-right: 10%;
+		
+
+	}
+	.firstinputbusiness{
+		position: relative;
+		right: 0%;
+	}
+	
+}
+
+
+.clearbtn{
+	width: 90px;
+height: 30px;
+flex-shrink: 0;
+border-radius: 4px;
+border: 1px solid #878787;
+background: white;
+display: grid;
+place-items: center;
+
+}
+.clearbtn a{
+	color: #878787 !important;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.donebtn{
+	border-radius: 4px;
+background: #9D40B1;
+width: 90px;
+height: 30px;
+border: 1px solid  #9D40B1;
+
+flex-shrink: 0;
+display: grid;
+place-items: center;
+}
+.donebtn a{
+	color: #FFF !important;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+
+  
+ 
