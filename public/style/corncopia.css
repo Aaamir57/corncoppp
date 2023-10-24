@@ -3726,8 +3726,7 @@ font-style: normal;
 font-weight: 400;
 line-height: 102.5%; /* 8.2px */
 letter-spacing: 0.08px;
-position: relative;
-top: 3px;
+margin-right: 2px;
  }
  .main-sliderange h2{
 	color: #3F0065;
