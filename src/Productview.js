@@ -40,15 +40,15 @@ export default function Productview() {
                                 </div>
                                 <div className='loremipsumtextmain'>
                                     <div className='loremipsumtext2'>
-                                        <img src="./media/77.svg" />
+                                        <img src="./media/78.svg" />
                                         <h1>Business</h1>
                                     </div>
                                     <div className='loremipsumtext3'>
-                                        <img src="./media/78.svg" />
+                                        <img src="./media/77.svg" />
                                         <h1>Retail</h1>
                                     </div>
                                     <div className='loremipsumtext4'>
-                                        <img src="./media/77.svg" />
+                                        <img src="./media/78.svg" />
                                         <h1>Automation</h1>
                                     </div>
                                 </div>
@@ -63,7 +63,7 @@ export default function Productview() {
                                     <img src="./media/21.png" className='img2' />
 
                                 </div>
-                                <div className='medianscren'>
+                                <div className='medianscren medianscreenbottom'>
                                     <img src="./media/22.png" className='img2' />
                                     <img src="./media/23.png" className='img2' />
 
@@ -79,7 +79,7 @@ export default function Productview() {
                         <div class=" rightbaseseller">
                             <div className='mainbaseprice'>
                                 <div className='mainbaseprice1'>
-                                    <h1>Base Price</h1><span>$799.99</span>
+                                    <h1>Base Price</h1> <p className='dollarp'>$</p><span>799.99</span>
                                 </div>
                                 <hr />
                                 <div className='mainbasepricelorem'>
@@ -100,8 +100,8 @@ export default function Productview() {
                                     <span></span>
                                     <h1>Extend Support to 12 <br />months</h1>
                                     <div className='mainprice'>
-                                        <p>$40.32</p>
-                                        <h2>$21.99</h2>
+                                       <p className='dollar'>$</p> <h6>40.32</h6>
+                                       <p className='dollars'>$</p><h2>21.99</h2>
                                     </div>
 
                                 </div>
@@ -259,7 +259,7 @@ export default function Productview() {
 
                                 <div className='mainbaseprice'>
                                     <div className='mainbaseprice1'>
-                                        <h1>Base Price</h1><span>$799.99</span>
+                                        <h1>Base Price</h1><p className='dollarp'>$</p><span>799.99</span>
                                     </div>
                                     <hr />
                                     <div className='mainbasepricelorem'>
@@ -280,8 +280,8 @@ export default function Productview() {
                                         <span></span>
                                         <h1>Extend Support to 12 <br />months</h1>
                                         <div className='mainprice'>
-                                            <p>$40.32</p>
-                                            <h2>$21.99</h2>
+                                            <p className='dollar'>$</p><h6>$40.32</h6>
+                                            <p className='dollars'>$</p><h2>$21.99</h2>
                                         </div>
 
                                     </div>

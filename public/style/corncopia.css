@@ -3855,7 +3855,10 @@ font-size: 20px;
 font-style: italic;
 font-weight: 500;
 line-height: normal;
+position: relative;
+top: 4px;
  }
+ 
  .loremipsumtextmain{
 	display: flex;
 	flex-direction: row;
@@ -3869,6 +3872,8 @@ line-height: normal;
  .loremipsumtext2 img{
 	width: 11px;
 	height: 10px;
+	position: relative;
+	top: 2px;
 	flex-shrink: 0;
  }
  .loremipsumtext2 h1{
@@ -3886,6 +3891,8 @@ line-height: normal;
  }
  .loremipsumtext3 img{
 	width: 11px;
+	position: relative;
+	top: 2px;
 	height: 10px;
 	flex-shrink: 0;
  }
@@ -3905,6 +3912,8 @@ line-height: normal;
  .loremipsumtext4 img{
 	width: 11px;
 	height: 10px;
+	position: relative;
+	top: 2px;
 	flex-shrink: 0;
  }
  .loremipsumtext4 h1{
@@ -3969,12 +3978,30 @@ flex-shrink: 0;
 		width: 199px;
 		height: 151px;
 		position: relative;
-		top: -5px;
+		top: -6px;
 	}
+	
 	.medianscren{
 		display: flex;
 		flex-direction: column;
-		gap: 20%;
+		gap: 35px;
+		justify-content: center;
+		align-items: center;
+	}
+ }
+ @media (max-width:490px) {
+	
+	.firstbigimage{
+		width: 199px;
+		height: 151px;
+		position: relative;
+		top: -5px;
+	}
+	
+	.medianscren{
+		display: flex;
+		flex-direction: column;
+		gap: 35px;
 		justify-content: center;
 		align-items: center;
 	}
@@ -4127,10 +4154,11 @@ flex: 1;
 	flex-direction: row;
 	gap: 10px;
  }
- .mainextendfile p{
+ .mainextendfile h6{
 	color: #888;
 font-family: Roboto;
 font-size: 14px;
+text-decoration: line-through;
 font-style: normal;
 font-weight: 400;
 
@@ -4703,4 +4731,33 @@ display: none;
 	.medianscren{
 		margin-top: 10%;
 	}
+}
+.dollarp{
+	color: rgb(109, 0, 133);
+}
+.dollars{
+	color: rgb(109, 0, 133);
+  font-family: Poppins;
+  font-size: 0.6375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1.44rem;
+  margin-left: auto;
+  position: relative;
+  right: -8px;
+
+}
+.dollar{
+	color: #888;
+  font-family: Poppins;
+  font-size: 0.6375rem;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin-bottom: 1.44rem;
+  margin-left: auto;
+  position: relative;
+  right: -8px;
+
 }
