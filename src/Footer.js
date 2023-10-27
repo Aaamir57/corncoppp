@@ -2,16 +2,27 @@ import React from 'react'
 
 export default function Footer() {
     return (
-        <div>
+        <div> 
+            <div className='footerremaining0'>
+                <div className='footerremaining'>
+
+                </div>
+                <div className='footerremaining1'>
+
+                </div>
+                <div className='footerremaining2'>
+
+                </div>
+            </div>
             <div class="container text-center">
                 <div class="row main-footer">
                     <div class="footerimage">
-                        <img src="./media/1.png"/>
+                        <img alt=' '  src="./media/1.png"/>
                     </div>
 
                     <div class="col-lg-5 col-md-0 col-sm-0">
                         <div class="footer firstfooter">
-                            <img src="./media/1.png"/>
+                            <img alt=' '  src="./media/1.png"/>
                                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting.</p>
                         </div>
                     </div>
@@ -56,7 +67,7 @@ export default function Footer() {
                     <div class="col ">
                         <div class="bottom-footer">
                             <p>All copyrights reserved</p>
-                            <img src="./media/20.svg"/>
+                            <img alt=' '  src="./media/20.svg"/>
                         </div>
                     </div>
 

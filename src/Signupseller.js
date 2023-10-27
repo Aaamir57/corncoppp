@@ -16,7 +16,7 @@ export default function Signupseller() {
                                 <p>Lorem ipsum dolor sit amet consectetur adipiscing<br /> elit. At elementum eu facilisis sed odio morbi. Massa <br />vitae tortor condimentum lacinia quis vel.</p>
                             </div>
                             <div className="signup-image">
-                                <img src="./media/1.svg"/>
+                                <img alt=' '  src="./media/1.svg"/>
                                     <p>1. Fill in your personal
                                         information</p>
                             </div>
@@ -24,10 +24,10 @@ export default function Signupseller() {
                                 <p>2. Fill in your credit
                                     card information.
                                 </p>
-                                <img src="./media/2.svg"/>
+                                <img alt=' '  src="./media/2.svg"/>
                             </div>
                             <div className="signup-image">
-                                <img src="./media/3.svg"/>
+                                <img alt=' '  src="./media/3.svg"/>
                                     <p>3. Subscribe to our freebies,
                                         updates, trends and you’re
                                         good to create your account!
@@ -131,16 +131,16 @@ export default function Signupseller() {
                                         
                                        
                                         </div>
-                                        <button class="main-div-right-button"><a href="">  Create an account</a></button>
+                                        <button class="main-div-right-button"><a href="/">  Create an account</a></button>
                                         <div className='line-div'>
                                             <hr class="line"/><p>or</p><hr class=" line2"/>
                                         </div>
                                         
                                             <span class="main-div-right-text">Continue signing in with</span>
                                             <div class="main-div-right-image">
-                                                <img src="./media/4.svg"/>
-                                                <img src="./media/5.svg"/>
-                                                <img src="./media/6.svg"/>
+                                                <img alt=' '    src="./media/4.svg"/>
+                                                <img alt=' '  src="./media/5.svg"/>
+                                                <img alt=' '  src="./media/6.svg"/>
                                             </div>
                                         </form>
                                             </div>

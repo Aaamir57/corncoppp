@@ -1,21 +1,20 @@
 import React from 'react'
 import Button from 'react-bootstrap/Button';
 import Container from 'react-bootstrap/Container';
-import Form from 'react-bootstrap/Form';
+
 import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
-import NavDropdown from 'react-bootstrap/NavDropdown';
 
 
 
-import { Link } from 'react-router-dom'
+
 export default function Header() {
     return (
         <div>
             {/* 
             <nav class="navbar navbar-main navbar-expand-lg navbar-light">
                 <div class="container-fluid">
-                    <img src="./media/1.png" />
+                    <img alt=' '  src="./media/1.png" />
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
@@ -42,7 +41,7 @@ export default function Header() {
     <Navbar expand="lg" className="bg-body-tertiary navbar-main">
       <Container fluid>
         <Navbar.Brand href="#">
-          <img src="./media/1.png" alt="Logo" className='navbar-image'/>
+          <img alt=' '  src="./media/1.png"  className='navbar-image'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" className='toggle'/>
         <Navbar.Collapse id="navbarScroll" className='nab ' >

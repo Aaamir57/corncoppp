@@ -1,5 +1,4 @@
 import React from 'react'
-import Header from './Header'
 import Footer from './Footer'
 import Headerlogin from './Headerlogin'
 
@@ -19,7 +18,7 @@ export default function Login() {
                                 You can sign in with your existing account.</p>
                         </div>
                         <div class="signup-images">
-                            <img src="./media/10.svg" />
+                            <img alt=' '  src="./media/10.svg" />
 
 
                         </div>
@@ -67,9 +66,9 @@ export default function Login() {
                                     </div>
                                     <span class="main-div-right-text">Continue signing in with</span>
                                     <div class="main-div-right-image">
-                                        <img src="./media/4.svg" />
-                                        <img src="./media/5.svg" />
-                                        <img src="./media/6.svg" />
+                                        <img alt=' '  src="./media/4.svg" />
+                                        <img alt=' '  src="./media/5.svg" />
+                                        <img alt=' '  src="./media/6.svg" />
                                     </div>
                                 </form>
                             </div>

@@ -34,7 +34,7 @@ export default function Productpage() {
                         <div className='main-search'>
                             <input type="text" name="" placeholder='How we can help you ?' className='custominput' />
                             <div className='searchicon'>
-                                <img src="./media/72.svg" />
+                                <img alt=' '  src="./media/72.svg" />
                             </div>
                         </div>
                     </div>
@@ -47,7 +47,7 @@ export default function Productpage() {
                         <div className='main-filter'>
                             <div className='filter ' id="flip1">
                                 <h1>Filters</h1>
-                                <img src="./media/74.svg" />
+                                <img alt=' '  src="./media/74.svg" />
                             </div>
                             <div className='toglle' id="panel1">
 
@@ -275,7 +275,7 @@ export default function Productpage() {
                 <div class="row mainrow">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '    src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -285,12 +285,12 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '   src="./media/60.svg" />
+                                    <img alt=' '    src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '    src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>
@@ -299,7 +299,7 @@ export default function Productpage() {
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '  src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -309,12 +309,12 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '  src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>
@@ -323,7 +323,7 @@ export default function Productpage() {
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '  src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -333,12 +333,12 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '  src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>
@@ -347,7 +347,7 @@ export default function Productpage() {
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '  src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -357,132 +357,12 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
-                                    <p>589 buyers</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                </div>
-
-
-            </div>
-            <div class="container text-center m">
-                <div class="row">
-                    <div class="col">
-                        <div className='trendingproduct'>
-                            <div className='trendingproducttext'>
-                                <h1>E-Commerce Products</h1>
-                                <p>AI products helping to boost your business and profits.</p>
-                            </div>
-                            <button className='trendingbutton'>
-                                <a>View More</a>
-                            </button>
-                        </div>
-                    </div>
-
-                </div>
-            </div>
-            <div class="container text-center mmmm">
-                <div class="row mainrow">
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
-                            <div className='mainprocss'>
-                                <div className='free'>
-                                    <p>
-                                        Lorem ipsum
-                                    </p>
-                                    <span>Free</span>
-                                </div>
-                                <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
-                                    <p>Business </p><p>Retail</p>
-                                </div>
-                                <div className='bytes'>
-                                    <img src="./media/73.svg" />
-                                    <p>589 buyers</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
-                            <div className='mainprocss'>
-                                <div className='free'>
-                                    <p>
-                                        Lorem ipsum
-                                    </p>
-                                    <span>Free</span>
-                                </div>
-                                <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
-                                    <p>Business </p><p>Retail</p>
-                                </div>
-                                <div className='bytes'>
-                                    <img src="./media/73.svg" />
-                                    <p>589 buyers</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
-                            <div className='mainprocss'>
-                                <div className='free'>
-                                    <p>
-                                        Lorem ipsum
-                                    </p>
-                                    <span>Free</span>
-                                </div>
-                                <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
-                                    <p>Business </p><p>Retail</p>
-                                </div>
-                                <div className='bytes'>
-                                    <img src="./media/73.svg" />
-                                    <p>589 buyers</p>
-                                </div>
-                            </div>
-
-                        </div>
-                    </div>
-                    <div class="col-lg-3 col-md-6 col-sm-12">
-                        <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
-                            <div className='mainprocss'>
-                                <div className='free'>
-                                    <p>
-                                        Lorem ipsum
-                                    </p>
-                                    <span>Free</span>
-                                </div>
-                                <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
-                                <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
-                                    <p>Business </p><p>Retail</p>
-                                </div>
-                                <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '  src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>
@@ -515,7 +395,7 @@ export default function Productpage() {
                 <div class="row mainrow">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '  src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -525,12 +405,12 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '  src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>
@@ -539,7 +419,7 @@ export default function Productpage() {
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '  src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -549,12 +429,12 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '  src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>
@@ -563,7 +443,7 @@ export default function Productpage() {
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '  src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -573,12 +453,12 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '  src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>
@@ -587,7 +467,7 @@ export default function Productpage() {
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '  src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -597,12 +477,12 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '  src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>
@@ -635,7 +515,7 @@ export default function Productpage() {
                 <div class="row mainrow">
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '  src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -645,12 +525,12 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '  src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>
@@ -659,7 +539,7 @@ export default function Productpage() {
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '  src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -669,12 +549,12 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '  src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>
@@ -683,7 +563,7 @@ export default function Productpage() {
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '  src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -693,12 +573,12 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '  src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>
@@ -707,7 +587,7 @@ export default function Productpage() {
                     </div>
                     <div class="col-lg-3 col-md-6 col-sm-12">
                         <div className='main-proo mmmmmm'>
-                            <img src="./media/11.png" className='proimage' />
+                            <img alt=' '  src="./media/11.png" className='proimage' />
                             <div className='mainprocss'>
                                 <div className='free'>
                                     <p>
@@ -717,12 +597,132 @@ export default function Productpage() {
                                 </div>
                                 <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
                                 <div className='businessfetal'>
-                                    <img src="./media/60.svg" />
-                                    <img src="./media/61.svg" />
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
                                     <p>Business </p><p>Retail</p>
                                 </div>
                                 <div className='bytes'>
-                                    <img src="./media/73.svg" />
+                                    <img alt=' '  src="./media/73.svg" />
+                                    <p>589 buyers</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+
+            </div>
+            <div class="container text-center m">
+                <div class="row">
+                    <div class="col">
+                        <div className='trendingproduct'>
+                            <div className='trendingproducttext'>
+                                <h1>E-Commerce Products</h1>
+                                <p>AI products helping to boost your business and profits.</p>
+                            </div>
+                            <button className='trendingbutton'>
+                                <a>View More</a>
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="container text-center mmmm">
+                <div class="row mainrow">
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div className='main-proo mmmmmm'>
+                            <img alt=' '  src="./media/11.png" className='proimage' />
+                            <div className='mainprocss'>
+                                <div className='free'>
+                                    <p>
+                                        Lorem ipsum
+                                    </p>
+                                    <span>Free</span>
+                                </div>
+                                <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                <div className='businessfetal'>
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
+                                    <p>Business </p><p>Retail</p>
+                                </div>
+                                <div className='bytes'>
+                                    <img alt=' '  src="./media/73.svg" />
+                                    <p>589 buyers</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div className='main-proo mmmmmm'>
+                            <img alt=' '  src="./media/11.png" className='proimage' />
+                            <div className='mainprocss'>
+                                <div className='free'>
+                                    <p>
+                                        Lorem ipsum
+                                    </p>
+                                    <span>Free</span>
+                                </div>
+                                <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                <div className='businessfetal'>
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
+                                    <p>Business </p><p>Retail</p>
+                                </div>
+                                <div className='bytes'>
+                                    <img alt=' '  src="./media/73.svg" />
+                                    <p>589 buyers</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div className='main-proo mmmmmm'>
+                            <img alt=' '  src="./media/11.png" className='proimage' />
+                            <div className='mainprocss'>
+                                <div className='free'>
+                                    <p>
+                                        Lorem ipsum
+                                    </p>
+                                    <span>Free</span>
+                                </div>
+                                <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                <div className='businessfetal'>
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
+                                    <p>Business </p><p>Retail</p>
+                                </div>
+                                <div className='bytes'>
+                                    <img alt=' '  src="./media/73.svg" />
+                                    <p>589 buyers</p>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-12">
+                        <div className='main-proo mmmmmm'>
+                            <img alt=' '  src="./media/11.png" className='proimage' />
+                            <div className='mainprocss'>
+                                <div className='free'>
+                                    <p>
+                                        Lorem ipsum
+                                    </p>
+                                    <span>Free</span>
+                                </div>
+                                <p className='protext'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod.</p>
+                                <div className='businessfetal'>
+                                    <img alt=' '  src="./media/60.svg" />
+                                    <img alt=' '  src="./media/61.svg" />
+                                    <p>Business </p><p>Retail</p>
+                                </div>
+                                <div className='bytes'>
+                                    <img alt=' '  src="./media/73.svg" />
                                     <p>589 buyers</p>
                                 </div>
                             </div>

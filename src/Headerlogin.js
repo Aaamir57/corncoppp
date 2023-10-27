@@ -13,7 +13,7 @@ export default function Headerlogin() {
     <Navbar expand="lg" className="bg-body-tertiary navbar-main">
       <Container fluid>
         <Navbar.Brand href="#">
-          <img src="./media/1.png" alt="Logo" className='navbar-image'/>
+          <img  src="./media/1.png" alt="Logo" className='navbar-image'/>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="navbarScroll" />
         <Navbar.Collapse id="navbarScroll "className='nab' >

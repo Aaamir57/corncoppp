@@ -12,14 +12,14 @@ export default function Productview() {
                         <div class="col main-product-view">
                             <div className='productdetail'>
                                 <button className='arrowbutton'>
-                                    <img src="./media/75.svg" />
+                                    <img alt=' '  src="./media/75.svg" />
                                 </button>
                                 <div className='productdetailtext'>
                                     <h1>Back to product list</h1>
                                     <h2>Product Details</h2>
                                 </div>
                                 <button className='livepreviewbtn'>
-                                    <img src="./media/76.svg" />
+                                    <img alt=' '  src="./media/76.svg" />
                                     <a>Live preview</a>
                                 </button>
                             </div>
@@ -40,15 +40,15 @@ export default function Productview() {
                                 </div>
                                 <div className='loremipsumtextmain'>
                                     <div className='loremipsumtext2'>
-                                        <img src="./media/78.svg" />
+                                        <img alt=' '  src="./media/78.svg" />
                                         <h1>Business</h1>
                                     </div>
                                     <div className='loremipsumtext3'>
-                                        <img src="./media/77.svg" />
+                                        <img alt=' '  src="./media/77.svg" />
                                         <h1>Retail</h1>
                                     </div>
                                     <div className='loremipsumtext4'>
-                                        <img src="./media/78.svg" />
+                                        <img alt=' '  src="./media/78.svg" />
                                         <h1>Automation</h1>
                                     </div>
                                 </div>
@@ -59,20 +59,20 @@ export default function Productview() {
                             </div>
                             <div >
                                 <div className='medianscren'>
-                                    <img src="./media/20.png" className='firstbigimage' />
-                                    <img src="./media/21.png" className='img2' />
+                                    <img alt=' '  src="./media/20.png" className='firstbigimage' />
+                                    <img alt=' '  src="./media/21.png" className='img2' />
 
                                 </div>
                                 <div className='medianscren medianscreenbottom'>
-                                    <img src="./media/22.png" className='img2' />
-                                    <img src="./media/23.png" className='img2' />
+                                    <img alt=' '  src="./media/22.png" className='img2' />
+                                    <img alt=' '  src="./media/23.png" className='img2' />
 
                                 </div>
                                 <div className='main-lorem-images'>
-                                    <img src="./media/20.png" className='firstbigimage' />
-                                    <img src="./media/21.png" className='img2' />
-                                    <img src="./media/22.png" className='img2' />
-                                    <img src="./media/23.png" className='img2' />
+                                    <img alt=' '  src="./media/20.png" className='firstbigimage' />
+                                    <img alt=' '  src="./media/21.png" className='img2' />
+                                    <img alt=' '  src="./media/22.png" className='img2' />
+                                    <img alt=' '  src="./media/23.png" className='img2' />
                                 </div>
                             </div>
                         </div>
@@ -84,15 +84,15 @@ export default function Productview() {
                                 <hr />
                                 <div className='mainbasepricelorem'>
                                     <div className='mainbaseprice2'>
-                                        <img src="./media/81.svg" />
+                                        <img alt=' '  src="./media/81.svg" />
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                     </div>
                                     <div className='mainbaseprice2'>
-                                        <img src="./media/81.svg" />
+                                        <img alt=' '  src="./media/81.svg" />
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                     </div>
                                     <div className='mainbaseprice2'>
-                                        <img src="./media/81.svg" />
+                                        <img alt=' '  src="./media/81.svg" />
                                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                     </div>
                                 </div>
@@ -106,12 +106,12 @@ export default function Productview() {
 
                                 </div>
                                 <button className='purchaseprooductbtn'>
-                                    <img src="./media/91.svg" />
+                                    <img alt=' '  src="./media/91.svg" />
                                     <a>Purchase Product</a>
                                 </button>
                                 <h1 className='head'>Seller Information</h1>
                                 <div className='jamesmens'>
-                                    <img src="./media/81.png" />
+                                    <img alt=' '  src="./media/81.png" />
                                     <div className='jamestext'>
                                         <h1>James and Laura</h1>
                                         <h2>Business Growth Firm</h2>
@@ -126,7 +126,7 @@ export default function Productview() {
 
                                 </textarea>
                                 <button className='purchaseprooductbtn'>
-                                    <img src="./media/92.svg" />
+                                    <img alt=' '  src="./media/92.svg" />
                                     <a>Drop us a message</a>
                                 </button>
                             </div>
@@ -160,37 +160,37 @@ export default function Productview() {
                             <div className='feature'>
                                 <h1>Feature</h1>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur </p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, </p>
 
                                 </div>
@@ -201,37 +201,37 @@ export default function Productview() {
                             <div className='feature'>
                                 <h1>Perks and Benefits</h1>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore</p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do </p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do</p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit,</p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, consectetur </p>
 
                                 </div>
                                 <div className='featuretext'>
-                                    <img src="./media/81.svg" />
+                                    <img alt=' '  src="./media/81.svg" />
                                     <p>Lorem ipsum dolor sit amet, </p>
 
                                 </div>
@@ -264,15 +264,15 @@ export default function Productview() {
                                     <hr />
                                     <div className='mainbasepricelorem'>
                                         <div className='mainbaseprice2'>
-                                            <img src="./media/81.svg" />
+                                            <img alt=' '  src="./media/81.svg" />
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         </div>
                                         <div className='mainbaseprice2'>
-                                            <img src="./media/81.svg" />
+                                            <img alt=' '  src="./media/81.svg" />
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         </div>
                                         <div className='mainbaseprice2'>
-                                            <img src="./media/81.svg" />
+                                            <img alt=' '  src="./media/81.svg" />
                                             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                                         </div>
                                     </div>
@@ -286,12 +286,12 @@ export default function Productview() {
 
                                     </div>
                                     <button className='purchaseprooductbtn'>
-                                        <img src="./media/91.svg" />
+                                        <img alt=' '  src="./media/91.svg" />
                                         <a>Purchase Product</a>
                                     </button>
                                     <h1 className='head'>Seller Information</h1>
                                     <div className='jamesmens'>
-                                        <img src="./media/81.png" />
+                                        <img alt=' '  src="./media/81.png" />
                                         <div className='jamestext'>
                                             <h1>James and Laura</h1>
                                             <h2>Business Growth Firm</h2>
@@ -306,7 +306,7 @@ export default function Productview() {
 
                                     </textarea>
                                     <button className='purchaseprooductbtn'>
-                                        <img src="./media/92.svg" />
+                                        <img alt=' '  src="./media/92.svg" />
                                         <a>Drop us a message</a>
                                     </button>
                                 </div>
@@ -330,20 +330,20 @@ export default function Productview() {
                         <div class="col responsivediv" >
                             <div className='mainjohnsonalex'>
                                 <div className='johnsonimagediv'>
-                                    <img src="./media/81.png" className='firstimagee' />
+                                    <img alt=' '  src="./media/81.png" className='firstimagee' />
                                     <div className='johnsonalex'>
                                         <h1>Johnson Alex</h1>
                                         <p>29 Aug 2020</p>
                                     </div>
                                     <div className='johnsonstar'>
                                         <span>4.2/5</span>
-                                        <img src="./media/93.svg" />
+                                        <img alt=' '  src="./media/93.svg" />
                                     </div>
                                 </div>
                                 <div className='Qsection'>
-                                    <img src="./media/96.svg" />
+                                    <img alt=' '  src="./media/96.svg" />
                                     <span>7</span>
-                                    <img src="./media/95.svg" />
+                                    <img alt=' '  src="./media/95.svg" />
 
 
                                 </div>
@@ -358,20 +358,20 @@ export default function Productview() {
                             </div>
                             <div className='mainjohnsonalex secondportfolio'>
                                 <div className='johnsonimagediv'>
-                                    <img src="./media/81.png" className='firstimagee' />
+                                    <img alt=' '  src="./media/81.png" className='firstimagee' />
                                     <div className='johnsonalex'>
                                         <h1>Johnson Alex</h1>
                                         <p>29 Aug 2020</p>
                                     </div>
                                     <div className='johnsonstar'>
                                         <span>4.2/5</span>
-                                        <img src="./media/93.svg" />
+                                        <img alt=' '  src="./media/93.svg" />
                                     </div>
                                 </div>
                                 <div className='Qsection'>
-                                    <img src="./media/96.svg" />
+                                    <img alt=' '  src="./media/96.svg" />
                                     <span>7</span>
-                                    <img src="./media/95.svg" />
+                                    <img alt=' '  src="./media/95.svg" />
 
 
                                 </div>
@@ -386,20 +386,20 @@ export default function Productview() {
                             </div>
                             <div className='mainjohnsonalex thirdportfolio'>
                                 <div className='johnsonimagediv'>
-                                    <img src="./media/81.png" className='firstimagee' />
+                                    <img alt=' '  src="./media/81.png" className='firstimagee' />
                                     <div className='johnsonalex'>
                                         <h1>Johnson Alex</h1>
                                         <p>29 Aug 2020</p>
                                     </div>
                                     <div className='johnsonstar'>
                                         <span>4.2/5</span>
-                                        <img src="./media/93.svg" />
+                                        <img alt=' '  src="./media/93.svg" />
                                     </div>
                                 </div>
                                 <div className='Qsection'>
-                                    <img src="./media/96.svg" />
+                                    <img alt=' '  src="./media/96.svg" />
                                     <span>7</span>
-                                    <img src="./media/95.svg" />
+                                    <img alt=' '  src="./media/95.svg" />
 
 
                                 </div>

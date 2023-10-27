@@ -15,7 +15,7 @@ export default function Signupone() {
                             <p>Lorem ipsum dolor sit amet consectetur adipiscing<br /> elit. At elementum eu facilisis sed odio morbi. Massa <br />vitae tortor condimentum lacinia quis vel.</p>
                         </div>
                         <div class="signup-images">
-                            <img src="./media/2.png" />
+                            <img alt=' '  src="./media/2.png" />
                         </div>
                     </div>
                     <div class="col-lg-6">
@@ -53,15 +53,15 @@ export default function Signupone() {
                                             <input type="text" name="" />
                                         </div>
                                     </div>
-                                    <button class="main-div-right-button"><a href="">  Create an account</a></button>
+                                    <button class="main-div-right-button"><a href="/signupone">  Create an account</a></button>
                                     <div className='line-div'>
                                         <hr class="line" /><p>or</p><hr class=" line2" />
                                     </div>
                                     <span class="main-div-right-text">Continue signing in with</span>
                                     <div class="main-div-right-image">
-                                        <img src="./media/4.svg" />
-                                        <img src="./media/5.svg" />
-                                        <img src="./media/6.svg" />
+                                        <img alt=' '  src="./media/4.svg" />
+                                        <img alt=' '  src="./media/5.svg" />
+                                        <img alt=' '  src="./media/6.svg" />
                                     </div>
                                 </form>
                             </div>

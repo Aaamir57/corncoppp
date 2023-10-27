@@ -1,8 +1,8 @@
-import logo from './logo.svg';
+
 import './App.css';
-import Header from './Header';
+
 import Signupseller from './Signupseller';
-import Footer from './Footer';
+
 import Login from './Login';
 import Signup from './Signup';
 import Signupone from './Signupone';

@@ -77,12 +77,12 @@ export default function Signup() {
                                     style={{ backgroundColor: buttonColors }}>
                                     <div class="butoon-css">
 
-                                        <img class="firstbutton" src={imageSrcs} alt="Image" />
+                                        <img   class="firstbutton" src={imageSrcs} alt="" />
                                         
                                         <p className='firstbuttons' style={{ color: textColors }}> I am a savvy shopper,
                                             I want to join as a buyer</p>
 
-                                        <img src={imageSrccccs} class="arrowcss" />
+                                        <img alt=' '  src={imageSrccccs} class="arrowcss" />
 
                                     </div>
                                 </button>
@@ -93,13 +93,13 @@ export default function Signup() {
                                     style={{ backgroundColor: buttonColor }}>
                                     <div class="butoon-css">
 
-                                        <img class="firstbutton" src={imageSrcsss} alt="Image" />
+                                        <img   class="firstbutton" src={imageSrcsss} alt="" />
                                         <p className='firstbuttons' style={{ color: textColor }}>
                                             I am an enterprenuer,
                                             I want to join as a seller
                                         </p>
 
-                                        <img src={imageSrcccc} class="arrowcss" />
+                                        <img alt=' '  src={imageSrcccc} class="arrowcss" />
 
                                     </div>
                                 </button>

@@ -629,7 +629,7 @@
 .main-footer {
 
 
-	margin-top: 10%;
+	margin-top: 5%;
 
 }
 
@@ -4933,7 +4933,7 @@ flex-shrink: 0;
 border-radius: 5px;
 background: #F9F9F9;
 
-gap: 10%;
+gap: 14%;
 
 padding-left: 3%;
 }
@@ -5149,7 +5149,7 @@ flex-shrink: 0;
 }
 .action{
 	position: relative;
-	top: 20px;
+	top: 18px;
 	left: -5%;
 }
 .purchase{
@@ -5204,6 +5204,10 @@ flex-direction: row;
 	position: relative;
 	left: 35px;
 }
+}
+.alignmentmyproduct{
+	padding-left: 5%;
+	padding-right: 5%;
 }
 @media (max-width:768px){
 	.alignmentmyproduct{
@@ -5285,8 +5289,8 @@ flex-direction: row;
 		display: flex;
 		flex-direction: row;
 		
-		
-		margin-top: 10px;
+		position: relative;
+		top: 90px;
 	}
 	.mainpagination h1{
 		color: rgba(55, 55, 55, 0.62);
@@ -5319,7 +5323,7 @@ justify-content: left;
 		.mainpagination{
 			display: flex;
 			flex-direction: column;
-			gap: 20px;
+			gap: 30px;
 			align-items: left;
 			justify-content: left;
 			
@@ -5339,3 +5343,90 @@ justify-content: left;
 			
 		  }
 	}
+
+
+	.input-group-append {
+		cursor: pointer;
+	  }
+	  /* Input field styling */
+#date {
+	width: 121px;
+	height: 34px;
+	flex-shrink: 0;
+	border-radius: 17px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+	background: white;
+	border: 1px solid rgba(66, 0, 81, 0.62);
+	gap: 9px
+  }
+  
+  /* Custom styling for the calendar icon (may vary by browser) */
+ 
+
+  
+  /* Style the placeholder text */
+  #date::placeholder {
+	color: #6D0085 !important;
+	font-family: Roboto;
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-decoration: none;
+	text-align: center;
+  }
+  /* You may need to adjust the above styles to fit your specific design preferences. */
+  
+
+
+
+
+
+
+
+.footerremaining0{
+	width: 100%;
+  overflow: hidden;
+  box-sizing: border-box;
+
+
+
+
+}
+
+  .footerremaining{
+	width: 110%;
+  height: 200px;
+  background-color: rgb(235, 214, 239);
+  transform: rotate(-4.899deg);
+  margin: 0px;
+  padding: 0px;
+  z-index: 40;
+  position: relative;
+  top: 330px;
+  }
+  .footerremaining1{
+	width: 110%;
+  height: 100px;
+  background-color: rgba(78, 0, 129, 0.17);
+  transform: rotate(-2.898deg);
+  margin: 0px;
+  padding: 0px;
+  z-index: 41;
+  position: relative;
+  top: 160px;
+  }
+  .footerremaining2{
+	width: 110%;
+  height: 100px;
+  background-color: white;
+  transform: rotate(-1.5deg);
+  margin: 0px;
+  padding: 0px;
+  z-index: 42;
+  position: relative;
+  top: 85px;
+  }
