@@ -6,34 +6,14 @@ import React from 'react';
 import Basictable from './Basictable';
 
 export default function Myproducts() {
-    // const [data, setData] = useState([
-    //     { id: 1, name: 'Item 1', price: 10 },
-    //     { id: 2, name: 'Item 2', price: 20 },
-    //     // Add more data items as needed
-    //   ]);
+   
     return (
         <div>
             <Header />
-             {/* <table>
-      <thead>
-        <tr>
-          <th>ID</th>
-          <th>Name</th>
-          <th>Price</th>
-        </tr>
-      </thead>
-      <tbody>
-        {data.map(item => (
-          <tr key={item.id}>
-            <td>{item.id}</td>
-            <td>{item.name}</td>
-            <td>{item.price}</td>
-          </tr>
-        ))}
-      </tbody>
-    </table> */}
+       
             
             <div className='alignmentmyproduct'>
+                
                 <div class="container-fluid text-center">
                     <div class="row">
                         <div class="col">
@@ -120,7 +100,7 @@ export default function Myproducts() {
                         </div>
                     </div>
                 </div>
-                <div class="container-fluid text-center ">
+                {/* <div class="container-fluid text-center ">
                     <div class="row">
                         <div class="col">
                             <div className='maintableproduct'>
@@ -314,7 +294,8 @@ export default function Myproducts() {
                         </div>
 
                     </div>
-                </div>
+                </div> */}
+                <Basictable/>
                 <div class="container-fluid text-center">
                     <div class="row">
                         <div class="col">

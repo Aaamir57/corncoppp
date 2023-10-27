@@ -1,56 +1,95 @@
-// import React from 'react';
-// import Paper from '@mui/material/Paper';
-// import Table from '@mui/material/Table';
-// import TableBody from '@mui/material/TableBody';
-// import TableCell from '@mui/material/TableCell';
-// import TableContainer from '@mui/material/TableContainer';
-// import TableHead from '@mui/material/TableHead';
-// import TableRow from '@mui/material/TableRow';
+import React from 'react';
+import Paper from '@mui/material/Paper';
+import Table from '@mui/material/Table';
+import TableBody from '@mui/material/TableBody';
+import TableCell from '@mui/material/TableCell';
+import TableContainer from '@mui/material/TableContainer';
+import TableHead from '@mui/material/TableHead';
+import TableRow from '@mui/material/TableRow';
 
 
 
-// function createData(name, calories, fat, carbs, protein) {
-//   return { name, calories, fat, carbs, protein };
-// }
+function createData(name, Title, Purchaseon, Catagory, Price, totalreviews, icons) {
+    return { name, Title, Purchaseon, Catagory, Price, totalreviews, icons };
+}
 
-// const rows = [
-//   createData('Frozen yoghurt', 159, 6.0, 24, 4.0),
-//   createData('Ice cream sandwich', 237, 9.0, 37, 4.3),
-//   createData('Eclair', 262, 16.0, 24, 6.0),
-//   createData('Cupcake', 305, 3.7, 67, 4.3),
-//   createData('Gingerbread', 356, 16.0, 49, 3.9),
-// ];
+const rows = [
+    createData('Frozen yoghurt', 'Product Title', '29/09/2021', 'Business', '$ 9984', "4568"),
+    createData('Frozen yoghurt', 'Product Title', '29/09/2021', 'Business', '$ 9984', "4568"),
+    createData('Frozen yoghurt', 'Product Title', '29/09/2021', 'Business', '$ 9984', "4568"),
+    createData('Frozen yoghurt', 'Product Title', '29/09/2021', 'Business', '$ 9984', "4568"),
+    createData('Frozen yoghurt', 'Product Title', '29/09/2021', 'Business', '$ 9984', "4568"),
+    createData('Frozen yoghurt', 'Product Title', '29/09/2021', 'Business', '$ 9984', "4568"),
+    createData('Frozen yoghurt', 'Product Title', '29/09/2021', 'Business', '$ 9984', "4568"),
+];
 
-// export default function Basictable() {
-//   return (
-//     <TableContainer component={Paper}>
-//       <Table sx={{ minWidth: 650 }} aria-label="simple table">
-//         <TableHead>
-//           <TableRow>
-//             <TableCell>Dessert (100g serving)</TableCell>
-//             <TableCell align="right">Calories</TableCell>
-//             <TableCell align="right">Fat&nbsp;(g)</TableCell>
-//             <TableCell align="right">Carbs&nbsp;(g)</TableCell>
-//             <TableCell align="right">Protein&nbsp;(g)</TableCell>
-//           </TableRow>
-//         </TableHead>
-//         <TableBody>
-//           {rows.map((row) => (
-//             <TableRow
-//               key={row.name}
-//               sx={{ '&:last-child td, &:last-child th': { border: 0 } }}
-//             >
-//               <TableCell component="th" scope="row">
-//                 {row.name}
-//               </TableCell>
-//               <TableCell align="right">{row.calories}</TableCell>
-//               <TableCell align="right">{row.fat}</TableCell>
-//               <TableCell align="right">{row.carbs}</TableCell>
-//               <TableCell align="right">{row.protein}</TableCell>
-//             </TableRow>
-//           ))}
-//         </TableBody>
-//       </Table>
-//     </TableContainer>
-//   );
-// }
+export default function Basictable() {
+    return (
+        <TableContainer component={Paper} className='maincontain'>
+            <Table aria-label="simple table" sx={{ borderCollapse: 'collapse' }} className='contain'>
+                <TableHead>
+                    <TableRow>
+
+                        <TableCell className='leftproductlist headicon'></TableCell>
+                        <TableCell className='leftproductlist headicon'>
+                            <div className='headicon'>
+                                <h1>Title</h1> <img alt='' src="./media/100.svg" />
+                            </div></TableCell>
+                        <TableCell className='leftproductlist headicon'>
+                            <div className='headicon'>
+                                <h1>Purchase on</h1> <img alt='' src="./media/100.svg" />
+                            </div></TableCell>
+                        <TableCell className='leftproductlist headicon'>
+                            <div className='headicon'>
+                                <h1>Catagory</h1> <img alt='' src="./media/100.svg" />
+                            </div></TableCell>
+                        <TableCell className='leftproductlist headicon'>
+                            <div className='headicon'>
+                                <h1>Price</h1> <img alt='' src="./media/100.svg" />
+                            </div>
+                        </TableCell>
+                        <TableCell className='leftproductlist headicon'>
+                            <div className='headicon'>
+                                <h1>Reviews</h1>
+                                <img alt='' src="./media/100.svg" />
+                            </div>
+
+                        </TableCell>
+
+                        <TableCell className='rightpro'><h1>Action</h1></TableCell>
+                    </TableRow>
+                </TableHead>
+                {rows.map((row) => (
+                <TableBody>
+                    
+
+                        <TableRow key={row.name} className='tablecontainerss'>
+
+                            <TableCell className='leftproductlistf'>
+                                <img alt=' ' src="./media/111.png" className='firsttableimg' />
+                            </TableCell>
+                            <TableCell className='producttitle leftproductlist'><h1>{row.Title}</h1> </TableCell>
+                            <TableCell className='purchaseon leftproductlist'><h1>{row.Purchaseon}</h1></TableCell>
+                            <TableCell className='catagory leftproductlist'><h1>{row.Catagory}</h1></TableCell>
+                            <TableCell className='price leftproductlist'><h1>{row.Price}</h1></TableCell>
+                            <TableCell className='totalreviews leftproductlist'><h1>{row.totalreviews}</h1></TableCell>
+
+                            <TableCell><div className='tableicons'>
+                                        <img alt=' ' src="./media/110.svg" />
+                                        <img alt=' ' src="./media/113.svg" />
+                                        <img alt=' ' src="./media/112.svg" />
+                                        <img alt=' ' src="./media/113.svg" />
+                                        <img alt=' ' src="./media/111.svg" />
+                                    </div></TableCell>
+                            
+                        </TableRow>
+                        <br/>
+                        
+                       
+                   
+                </TableBody>
+                ))}
+            </Table>
+        </TableContainer>
+    );
+}
