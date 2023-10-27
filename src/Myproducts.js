@@ -3,6 +3,7 @@ import Header from './Header'
 import Footer from './Footer'
 
 import React from 'react';
+import Basictable from './Basictable';
 
 export default function Myproducts() {
     // const [data, setData] = useState([
@@ -31,6 +32,7 @@ export default function Myproducts() {
         ))}
       </tbody>
     </table> */}
+            
             <div className='alignmentmyproduct'>
                 <div class="container-fluid text-center">
                     <div class="row">
