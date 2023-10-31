@@ -1,6 +1,7 @@
 import React from 'react'
 import Graph from './Graph';
 import Chart from './Chart';
+import Productone from './Productone';
 
 export default function Dashboard() {
     function toggleSidebar() {
@@ -82,6 +83,7 @@ export default function Dashboard() {
                                 </div>
 
                             </div>
+                            
                         </div>
 
                         <div className='welcomerow'>
@@ -96,7 +98,7 @@ export default function Dashboard() {
                             </div>
                             <div class="col">
                                 <div className='rightwelcom'>
-                                    {/* <input type="text" class="form-control" id="date2" name="date" placeholder="29/02/2013" /> */}
+                                   
                                     <button className='thismonth'>
                                         <img alt=' ' src="./media/210.svg" />
                                         <a>This Month</a>
@@ -108,181 +110,7 @@ export default function Dashboard() {
                                 </div>
                             </div>
                         </div>
-
-                        <div class="row maintotalbuyers median-total-remove">
-                            <div class="col  maintotalbuyers1">
-                                {/* <div className='totalbuyerdivfirsttwo'> */}
-                                    <div className='totalbuyerdiv'>
-                                        <div className='linediv'>
-                                            <img alt=' ' src="./media/Line 7.svg" />
-                                            <div className='linetext'>
-                                                <h1>Total Buyers</h1>
-                                                <h2>1,456</h2>
-                                            </div>
-                                            <img alt=' ' src="./media/Group 203.svg" />
-                                        </div>
-                                        <div className='arowseccc'>
-                                            <img alt=' ' src="./media/Vector(22).svg" />
-                                            <span>+6.57%</span>
-                                            <p>since last month</p>
-                                        </div>
-                                    </div>
-                                    <div className='totalbuyerdiv'>
-                                        <div className='linediv'>
-                                            <img alt=' ' src="./media/Line 7(1).svg" />
-                                            <div className='linetext'>
-                                                <h1>Total Buyers</h1>
-                                                <div className='mainsollarimage'>
-                                                    <img alt=' ' src="./media/Vector(25).svg" className='dollarimage' />
-                                                    <h2>1,456</h2>
-                                                </div>
-
-                                            </div>
-                                            <img alt=' ' src="./media/Group 203(3).svg" />
-                                        </div>
-                                        <div className='arowseccc'>
-                                            <img alt=' ' src="./media/Vector(23).svg" />
-                                            <span>+6.57%</span>
-                                            <p>since last month</p>
-                                        </div>
-                                    </div>
-                                {/* </div> */}
-
-                                {/* <div className='totalbuyerdivlasttwo'> */}
-                                    <div className='totalbuyerdiv'>
-                                        <div className='linediv'>
-                                            <img alt=' ' src="./media/Line 7(2).svg" />
-                                            <div className='linetext'>
-                                                <h1>Total Buyers</h1>
-
-                                                <h2>1,456</h2>
-                                            </div>
-                                            <img alt=' ' src="./media/Group 203(2).svg" />
-                                        </div>
-                                        <div className='arowseccc'>
-                                            <img alt=' ' src="./media/Vector(23).svg" />
-                                            <span>+6.57%</span>
-                                            <p>since last month</p>
-                                        </div>
-                                    </div>
-                                    <div className='totalbuyerdiv'>
-                                        <div className='linediv'>
-                                            <img alt=' ' src="./media/Line 7(3).svg" />
-                                            <div className='linetext'>
-                                                <h1>Total Buyers</h1>
-                                                <div className='mainsollarimage'>
-                                                    <img alt=' ' src="./media/Vector(25).svg" className='dollarimage' />
-                                                    <h2>1,456</h2>
-                                                </div>
-
-
-                                            </div>
-
-                                            <img alt=' ' src="./media/Group 203(3).svg" />
-                                        </div>
-                                        <div className='arowseccc'>
-                                            <img alt=' ' src="./media/Vector(22).svg" />
-                                            <span>+6.57%</span>
-                                            <p>since last month</p>
-                                        </div>
-                                    </div>
-                                {/* </div> */}
-                            </div>
-
-                        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-                        <div class="row maintotalbuyers median-main-total">
-                            <div class="col  maintotalbuyers1">
-                                <div className='totalbuyerdivfirsttwo'>
-                                    <div className='totalbuyerdiv'>
-                                        <div className='linediv'>
-                                            <img alt=' ' src="./media/Line 7.svg" />
-                                            <div className='linetext'>
-                                                <h1>Total Buyers</h1>
-                                                <h2>1,456</h2>
-                                            </div>
-                                            <img alt=' ' src="./media/Group 203.svg" />
-                                        </div>
-                                        <div className='arowseccc'>
-                                            <img alt=' ' src="./media/Vector(22).svg" />
-                                            <span>+6.57%</span>
-                                            <p>since last month</p>
-                                        </div>
-                                    </div>
-                                    <div className='totalbuyerdiv'>
-                                        <div className='linediv'>
-                                            <img alt=' ' src="./media/Line 7(1).svg" />
-                                            <div className='linetext'>
-                                                <h1>Total Buyers</h1>
-                                                <div className='mainsollarimage'>
-                                                    <img alt=' ' src="./media/Vector(25).svg" className='dollarimage' />
-                                                    <h2>1,456</h2>
-                                                </div>
-
-                                            </div>
-                                            <img alt=' ' src="./media/Group 203(3).svg" />
-                                        </div>
-                                        <div className='arowseccc'>
-                                            <img alt=' ' src="./media/Vector(23).svg" />
-                                            <span>+6.57%</span>
-                                            <p>since last month</p>
-                                        </div>
-                                    </div>
-                                </div>
-
-                                <div className='totalbuyerdivlasttwo'>
-                                    <div className='totalbuyerdiv'>
-                                        <div className='linediv'>
-                                            <img alt=' ' src="./media/Line 7(2).svg" />
-                                            <div className='linetext'>
-                                                <h1>Total Buyers</h1>
-
-                                                <h2>1,456</h2>
-                                            </div>
-                                            <img alt=' ' src="./media/Group 203(2).svg" />
-                                        </div>
-                                        <div className='arowseccc'>
-                                            <img alt=' ' src="./media/Vector(23).svg" />
-                                            <span>+6.57%</span>
-                                            <p>since last month</p>
-                                        </div>
-                                    </div>
-                                    <div className='totalbuyerdiv'>
-                                        <div className='linediv'>
-                                            <img alt=' ' src="./media/Line 7(3).svg" />
-                                            <div className='linetext'>
-                                                <h1>Total Buyers</h1>
-                                                <div className='mainsollarimage'>
-                                                    <img alt=' ' src="./media/Vector(25).svg" className='dollarimage' />
-                                                    <h2>1,456</h2>
-                                                </div>
-
-
-                                            </div>
-
-                                            <img alt=' ' src="./media/Group 203(3).svg" />
-                                        </div>
-                                        <div className='arowseccc'>
-                                            <img alt=' ' src="./media/Vector(22).svg" />
-                                            <span>+6.57%</span>
-                                            <p>since last month</p>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-
-                        </div>
+                        <Productone/>
                        
                         <Chart/>
                         <Graph />
