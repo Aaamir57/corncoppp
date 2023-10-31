@@ -15,6 +15,7 @@ import Landingpage from './Landingpage';
 import Productpage from './Productpage';
 import Productview from './Productview';
 import Myproducts from './Myproducts';
+import Dashboard from './Dashboard';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       {/* <Footer />  */}
       <Router>
         <Routes>
+          <Route path="/dashboard" exact element={<Dashboard />} />
           <Route path="/myproducts" exact element={<Myproducts />} />
           <Route path="/productview" exact element={<Productview />} />
           <Route path="/productpage" exact element={<Productpage />} />
