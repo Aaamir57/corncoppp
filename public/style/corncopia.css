@@ -5588,6 +5588,7 @@ box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.22);
 
 
 	.sidebar{
+		
 		width: 213px;
 height: 100%;
 flex-shrink: 0;
@@ -5734,8 +5735,11 @@ padding-bottom: 20px;
 
   .leftsidebararea{
 	max-width: 18%;
+	padding-left: 0%;
+	
 
   }
+ 
   .rghtsidebararea{
 	max-width: 82%;
 	border: 2px solid red;

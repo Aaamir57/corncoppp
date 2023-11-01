@@ -1,8 +1,44 @@
-import React from 'react'
+
 import Footer from './Footer'
 import Headerlogin from './Headerlogin'
+import React, { useEffect, useState } from 'react'
+import { useNavigate } from 'react-router-dom';
 
 export default function Login() {
+    const [email, SetEmail] = useState("");
+    const [password, SetPassword] = useState("");
+    const navigate = useNavigate();
+    async function login() {
+        let item = { email, password };
+    
+        try {
+            let result = await fetch("http://localhost:8000/api/login", {
+                method: 'POST',
+                body: JSON.stringify(item),
+                headers: {
+                    "Content-Type": 'application/json',
+                    "Accept": 'application/json'
+                }
+            });
+    
+            result = await result.json();
+            console.log("result", result); 
+    
+            if (result['page'] === 'table1') {
+                navigate("/dashboard") 
+            } else if (result['page'] === 'table2') {
+                navigate("/landingpage")
+            } else {
+                alert("Your email or password is not correct 3");
+            }
+        } catch (error) {
+            console.error("There was an error:", error);
+            
+        }
+    }
+    
+    
+
     return (
         <div>
             <Headerlogin />
@@ -18,7 +54,7 @@ export default function Login() {
                                 You can sign in with your existing account.</p>
                         </div>
                         <div class="signup-images">
-                            <img alt=' '  src="./media/10.svg" />
+                            <img alt=' ' src="./media/10.svg" />
 
 
                         </div>
@@ -32,7 +68,7 @@ export default function Login() {
                                     <div class="main-form-csss">
                                         <div class="form-csss   signupsellerform-cssss">
                                             <label>Email</label>
-                                            <input type="text" name="" />
+                                            <input type="email" name="" value={email} onChange={(e) => SetEmail(e.target.value)} />
                                         </div>
 
                                     </div>
@@ -42,7 +78,7 @@ export default function Login() {
                                     <div class="main-form-csss ">
                                         <div class="form-csss  signupsellerform-cssss">
                                             <label>Password</label>
-                                            <input type="text" name="" />
+                                            <input type="password" name="" value={password} onChange={(e) => SetPassword(e.target.value)} />
                                         </div>
 
                                     </div>
@@ -57,18 +93,18 @@ export default function Login() {
                                             <h2>forgot password?</h2>
 
                                         </div>
-                                       
+
                                     </div>
 
-                                    <button class="main-div-right-button loginn"><a href="">  Login</a></button>
+                                    <button class="main-div-right-button loginn" onClick={login}><a href="">  Login</a></button>
                                     <div className='line-div'>
                                         <hr class="line" /><p>or</p><hr class=" line2" />
                                     </div>
                                     <span class="main-div-right-text">Continue signing in with</span>
                                     <div class="main-div-right-image">
-                                        <img alt=' '  src="./media/4.svg" />
-                                        <img alt=' '  src="./media/5.svg" />
-                                        <img alt=' '  src="./media/6.svg" />
+                                        <img alt=' ' src="./media/4.svg" />
+                                        <img alt=' ' src="./media/5.svg" />
+                                        <img alt=' ' src="./media/6.svg" />
                                     </div>
                                 </form>
                             </div>

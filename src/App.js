@@ -34,10 +34,10 @@ function App() {
           <Route path="/productview" exact element={<Productview />} />
           <Route path="/productpage" exact element={<Productpage />} />
           <Route path="/landingpage" exact element={<Landingpage />} />
-          <Route path="/" exact element={<Signupseller />} />
+          <Route path="/signupseller" exact element={<Signupseller />} />
           <Route path="/signupone" exact element={<Signupone />} />
           <Route path="/signup" exact element={<Signup />} />
-          <Route path="/login" exact element={<Login />} />
+          <Route path="/" exact element={<Login />} />
         </Routes>
       </Router>
 

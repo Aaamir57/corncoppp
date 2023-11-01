@@ -30,7 +30,7 @@ export default function Signup() {
         setTextColor('white');
         setButtonColor('#9600AF');
         setContinueButtonColor('#9600AF');
-        setPage('login');
+        setPage('signupseller');
         setImageSrcsss('./media/50.svg');
 
         ssetImageSrc('./media/7.svg');
