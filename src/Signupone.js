@@ -15,7 +15,7 @@ export default function Signupone() {
 
         let item={firstname,lastname, email,password,confirmpassword};
 
-
+        console.log(item);
         let result = await fetch ("http://localhost:8000/api/buyersignup",{
           method:'POST',
           body:JSON.stringify(item),
@@ -24,11 +24,10 @@ export default function Signupone() {
             "Accept" : 'application/json'
           }
         })
-        console.log("item",item)
         result=await result.json();
         
         navigate("/")
-}
+    }
     return (
         <div>
 
@@ -79,7 +78,7 @@ export default function Signupone() {
                                             <input type="password" name=""  value={confirmpassword} onChange={(e)=>SetConfirmPassword(e.target.value)} />
                                         </div>
                                     </div>
-                                    <button class="main-div-right-button" onClick={buyersignup}><a href="/signupone">  Create an account</a></button>
+                                    <button class="main-div-right-button" type='button' onClick={buyersignup}>Create an account</button>
                                     <div className='line-div'>
                                         <hr class="line" /><p>or</p><hr class=" line2" />
                                     </div>
