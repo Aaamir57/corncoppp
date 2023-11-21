@@ -7,8 +7,18 @@ import { useNavigate } from 'react-router-dom';
 export default function Login() {
     const [email, SetEmail] = useState("");
     const [password, SetPassword] = useState("");
+    const [emailError, setEmailError] = useState("");
+    const [passwordError, setPasswordError] = useState("");
     const navigate = useNavigate();
+
     async function login() {
+        if (!validateForm()) {
+            return;
+        }
+       
+        
+       
+    
         let item = { email, password };
     
         try {
@@ -22,21 +32,51 @@ export default function Login() {
             });
     
             result = await result.json();
-            console.log("result", result); 
+            console.log("result", result);
     
             if (result['page'] === 'table1') {
-                navigate("/dashboard") 
+                navigate("/dashboard")
             } else if (result['page'] === 'table2') {
                 navigate("/landingpage")
             } else {
-                alert("Your email or password is not correct 3");
+                alert("Your email or password is not correct.");
             }
         } catch (error) {
             console.error("There was an error:", error);
-            
         }
     }
-    
+    const validateForm = () => {
+        let valid = true;
+    if (!email) {
+        setEmailError("Please enter your email.");
+        valid = false;
+    } else if (!validateEmail(email)) {
+        setEmailError("Please enter a valid email.");
+        valid = false;
+    } else {
+        setEmailError("");
+    }
+
+  
+    if (!password) {
+        setPasswordError("Please enter a password.");
+        valid = false;
+    } else if (!/(?=.*[a-zA-Z])(?=.*\d).{6,}/.test(password)) {
+       
+        setPasswordError("Password must contain at least 1 letter, 1 number, and be at least 6 characters long.");
+        valid = false;
+    } else {
+        setPasswordError("");
+    }
+
+    return valid;
+};
+
+
+    const validateEmail = (email) => {
+        const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+        return emailPattern.test(email);
+    }
     
 
     return (
@@ -68,8 +108,10 @@ export default function Login() {
                                     <div class="main-form-csss">
                                         <div class="form-csss   signupsellerform-cssss">
                                             <label>Email</label>
-                                            <input type="email" name="" value={email} onChange={(e) => SetEmail(e.target.value)} />
+                                            <input type="email" name="" value={email} onChange={(e) => SetEmail(e.target.value)}   className={emailError ? 'error' : ''} />
+                                            <p style={{ color: 'red' ,textAlign:'left'}}>{emailError}</p>
                                         </div>
+                                        
 
                                     </div>
 
@@ -78,8 +120,11 @@ export default function Login() {
                                     <div class="main-form-csss ">
                                         <div class="form-csss  signupsellerform-cssss">
                                             <label>Password</label>
-                                            <input type="password" name="" value={password} onChange={(e) => SetPassword(e.target.value)} />
+                                            <input type="password" name="" value={password} onChange={(e) => SetPassword(e.target.value)} className={passwordError ? 'error' : ''} />
+                                            <p style={{ color: 'red' ,textAlign:'left'}}>{passwordError}</p>
+
                                         </div>
+                                       
 
                                     </div>
                                     <div className='main-password signupsellerform-cssss'>
@@ -96,7 +141,7 @@ export default function Login() {
 
                                     </div>
 
-                                    <button class="main-div-right-button loginn" onClick={login}><a href="">  Login</a></button>
+                                    <button class="main-div-right-button loginn" type='button' onClick={login}>Login</button>
                                     <div className='line-div'>
                                         <hr class="line" /><p>or</p><hr class=" line2" />
                                     </div>

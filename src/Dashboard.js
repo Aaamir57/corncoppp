@@ -81,9 +81,7 @@ export default function Dashboard() {
                                     <img alt=' ' src="./media/104.svg" className='straigntline' />
                                     <img alt=' ' src="./media/208.svg" />
                                 </div>
-
                             </div>
-                            
                         </div>
 
                         <div className='welcomerow'>

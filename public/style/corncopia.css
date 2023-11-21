@@ -6505,3 +6505,293 @@ justify-content: center;
 		right: -70px;
 	}
 } */
+
+.error {
+    outline: 1px solid red; /* You can adjust this according to your styling needs */
+}
+
+
+
+
+.mainmarketplace{
+	display: flex;
+	flex-direction: row;
+	
+}
+.leftmarket{
+	flex: 1;
+}
+.rightmarket{
+	flex: 1;
+	padding-right: 2%;
+	
+}
+
+
+.marketonemain{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-right: 10px;
+}
+
+
+
+
+
+.leftsearchhead{
+	display: flex;
+	flex-direction: row;
+	gap: 5px;
+	margin-top: 5px;
+}
+.leftsearchhead h1{
+	color: #6D0085;
+font-family: Roboto;
+font-size: 23px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.leftsearchhead p{
+	color: #989898;
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+top: 9px;
+
+}
+
+.nameonetoglemain{
+	display: flex;
+	flex-direction: row-reverse;
+	gap: 20px;
+	justify-content: end;
+}
+@media (max-width:530px) {
+	.marketonemain{
+		display: flex;
+		flex-direction: column-reverse;
+		gap: 20px;
+	}
+	
+}
+@media (min-width:530px)and (max-width:660px) {
+	.leftsearchhead{
+		margin-top: 10px;
+	}
+	
+}
+
+
+
+.btnmarketfirst{
+	width: 183px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 6px;
+display: grid;
+place-items: center;
+display: flex;
+align-items: center;
+justify-content: center;
+gap: 10px;
+
+background: #3F0065;
+border: 1px solid #3F0065;
+}
+.btnmarketfirst h1{
+	color: #FFF;
+	font-family: Poppins;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+.btnmarketfirst img{
+	width: 12px;
+height: 12px;
+flex-shrink: 0;
+position: relative;
+bottom: 3px;
+}
+
+.searchmarketplace{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 20px;
+	gap: 50px;
+}
+.rightsearchmarketplace{
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+	
+	
+}
+
+
+
+.marketfiltermain{
+	
+	display: flex;
+	flex-direction: row;
+	gap: 15px;
+
+	justify-content: flex-end;
+	width: 182px;
+height: 45px;
+flex-shrink: 0;
+	
+
+flex-shrink: 0;
+
+align-items: center;
+justify-content: center;
+border-radius: 6px;
+background: #F9F9F9;
+}
+.marketfiltermain h1{
+	color: #6D0085;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+padding-top: 5px;
+flex-shrink: 0;
+}
+
+.leftsearcmarket{
+	display: flex;
+	flex-direction: row;
+	flex: 1;
+}
+.Qsearch{
+	width: 50px;
+height: 51px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #F9F9F9;
+display: flex;
+align-items: center;
+justify-content: center;
+
+
+}
+.Qsearch img{
+	width: 15.797px;
+height: 15.797px;
+flex-shrink: 0;
+}
+.leftsearcmarket input{
+	border-radius: 6px;
+	
+background: #F9F9F9;
+border: 1px solid #F9F9F9;
+
+width: 500px;
+position: relative;
+right: 5px;
+height: 51px;
+flex-shrink: 0;
+}
+
+
+
+@media (max-width:1080px) {
+	.leftsearcmarket input{
+		border-radius: 6px;
+		
+	background: #F9F9F9;
+	border: 1px solid #F9F9F9;
+	
+	width: 90%;
+	position: relative;
+	right: 5px;
+	height: 51px;
+	flex-shrink: 0;
+	}
+	
+}
+@media (max-width:750px) {
+	.searchmarketplace{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	
+}
+@media (max-width:430px) {
+	.rightsearchmarketplace{
+		display: flex;
+		flex-direction: column;
+		gap: 20px;
+	}
+	
+}
+
+
+.crosmarketmain{
+	display: flex;
+	align-items: start;
+	margin-top:20px ;
+	margin-bottom: 30px;
+}
+.crosmarketone{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	
+	display: inline-flex;
+	
+}
+
+
+@media (max-width:1200px) {
+	.crosmarketone{
+		display: flex;
+		flex-direction: row;
+		gap: 50px;
+		
+		display: inline-flex;
+		
+	}
+	
+}
+@media (max-width:682px) {
+	.crosmarketone{
+		display: none;
+		
+	}
+	
+}
+
+
+.paginaionmainmarket{
+	display: flex;
+	justify-content: space-between;
+	padding: 0%;
+	margin: 0%;
+}
+
+
+.paginaionmainmarket h1{
+	color: rgba(55, 55, 55, 0.62);
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+
+
+line-height: normal;
+position: relative;
+top: 60px;
+justify-content: left;
+
+
+}

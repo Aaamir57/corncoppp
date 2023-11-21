@@ -16,17 +16,13 @@ import Productpage from './Productpage';
 import Productview from './Productview';
 import Myproducts from './Myproducts';
 import Dashboard from './Dashboard';
+import Marketplace from './Marketplace';
 
 function App() {
   return (
     <div className="App">
 
-      {/* <Header />
-      <Signupseller />
-      {/* <Login/>
-        <Signup/>
-        <Signupone/> */}
-      {/* <Footer />  */}
+      
       <Router>
         <Routes>
           <Route path="/dashboard" exact element={<Dashboard />} />
@@ -37,6 +33,7 @@ function App() {
           <Route path="/signupseller" exact element={<Signupseller />} />
           <Route path="/signupone" exact element={<Signupone />} />
           <Route path="/signup" exact element={<Signup />} />
+          <Route path="/marketplace" exact element={<Marketplace />} />
           <Route path="/" exact element={<Login />} />
         </Routes>
       </Router>
