@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useState } from 'react';
 import Basictabletwo from './Basictabletwo';
+import Paginationer from './Paginationer';
+import Sidebartwo from './Sidebartwo';
 
 export default function Marketplace() {
     function toggleSidebar() {
@@ -7,47 +9,17 @@ export default function Marketplace() {
 
         sidebar.classList.toggle('open');
 
+
     }
+
+    
     return (
         <div>
             <div className='mainmarketplace'>
-                <div class="leftsidebararea leftmarket">
-                    <div className='sidebar' id="sidebar">
-                        <img alt=' ' src="./media/1.png" className='firstdashboardimg' />
-                        <button className='dashboardbtn'>
-                            <img alt=' ' src="./media/202.svg" />
-                            <a>Dashboard</a>
-                        </button>
-                        <div className='dashboard-firstfive'>
-                            <div className='dashbord-ul'>
-                                <img alt=' ' src="./media/201.svg" />
-                                <a>Inbox</a>
-                            </div>
-                            <div className='dashbord-ul'>
-                                <img alt=' ' src="./media/203.svg" />
-                                <a>Products</a>
-                            </div>
-                            <div className='dashbord-ul'>
-                                <img alt=' ' src="./media/204.svg" />
-                                <a>Transactions</a>
-                            </div>
-                            <div className='dashbord-ul'>
-                                <img alt=' ' src="./media/200.svg" />
-                                <a>Trends</a>
-                            </div>
-                        </div>
-                        <div className='dashboard-lasttwo'>
-                            <div className='dashbord-ul'>
-                                <img alt=' ' src="./media/205.svg" />
-                                <a>Settings</a>
-                            </div>
-                            <div className='dashbord-ul'>
-                                <img alt=' ' src="./media/206.svg" />
-                                <a>Logout</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
+               <div className='leftmarket'>
+                <Sidebartwo/>
+
+               </div>
                 <div className='rightmain rightmarket'>
                     <div className='marketonemain'>
                         <div className='leftsearchhead'>
@@ -127,30 +99,20 @@ export default function Marketplace() {
 
                     </div>
 
-                    
+
                     <Basictabletwo />
                     <div class="container-fluid text-center">
                         <div class="row">
                             <div class="col">
                                 <div className='paginaionmainmarket' >
                                     <h1>Showing 1 to  7 of 132 entries</h1>
-                                    <div className=''>
-                                        <div class="pagination">
-                                            <a href="#">❮</a>
-                                            <a href="#">1</a>
-                                            <a href="#" class="active">2</a>
-                                            <a href="#">3</a>
-
-                                            <a href="#">❯</a>
-                                        </div>
-
-                                    </div>
-
+                                    <Paginationer/>
                                 </div>
                             </div>
 
                         </div>
                     </div>
+                 
                 </div>
             </div>
         </div>

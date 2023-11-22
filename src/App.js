@@ -17,6 +17,7 @@ import Productview from './Productview';
 import Myproducts from './Myproducts';
 import Dashboard from './Dashboard';
 import Marketplace from './Marketplace';
+import Mainproducts from './Mainproducts';
 
 function App() {
   return (
@@ -34,7 +35,8 @@ function App() {
           <Route path="/signupone" exact element={<Signupone />} />
           <Route path="/signup" exact element={<Signup />} />
           <Route path="/marketplace" exact element={<Marketplace />} />
-          <Route path="/" exact element={<Login />} />
+          <Route path="/login" exact element={<Login />} />
+          <Route path="/" exact element={<Mainproducts />} />
         </Routes>
       </Router>
 

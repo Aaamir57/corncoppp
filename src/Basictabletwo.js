@@ -25,81 +25,86 @@ const rows = [
 
 export default function Basictabletwo() {
     return (
-        <TableContainer component={Paper} className='maincontain'>
-            <Table aria-label="simple table" sx={{ borderCollapse: 'collapse' }} className='contain'>
+        <TableContainer component={Paper} >
+            <Table aria-label="simple table" sx={{ borderCollapse: 'collapse' }} className='tablebig'>
                 <TableHead>
-                    <TableRow>
+                    <TableRow className='headtable'>
 
-                        <TableCell className='leftproductlist headicon'></TableCell>
-                        <TableCell className='leftproductlist headicon'>
-                            <div className='headicon'>
-                                <h1>Title</h1> <img alt='' src="./media/100.svg" />
+                        <TableCell ></TableCell>
+                        <TableCell >
+                            <div >
+                                <h1>Title</h1> 
                             </div></TableCell>
-                        <TableCell className='leftproductlist headicon'>
-                            <div className='headicon'>
-                                <h1>Purchase on</h1> <img alt='' src="./media/100.svg" />
+                        <TableCell >
+                            <div>
+                                <h1>Product id</h1>
                             </div></TableCell>
-                        <TableCell className='leftproductlist headicon'>
-                            <div className='headicon'>
-                                <h1>Catagory</h1> <img alt='' src="./media/100.svg" />
+                        <TableCell >
+                            <div >
+                                <h1>Catagory</h1> 
                             </div></TableCell>
-                        <TableCell className='leftproductlist headicon'>
-                            <div className='headicon'>
-                                <h1>Price</h1> <img alt='' src="./media/100.svg" />
+                            <TableCell >
+                            <div >
+                                <h1>URL</h1> 
+                            </div></TableCell>
+                        <TableCell >
+                            <div>
+                                <h1>Price</h1> 
                             </div>
                         </TableCell>
-                        <TableCell className='leftproductlist headicon'>
-                            <div className='headicon'>
+                        <TableCell >
+                            <div >
                                 <h1>Reviews</h1>
-                                <img alt='' src="./media/100.svg" />
+                                
                             </div>
 
                         </TableCell>
-                        <TableCell className='leftproductlist headicon'>
-                            <div className='headicon'>
-                                <h1>Status</h1>
-                                <img alt='' src="./media/100.svg" />
+                        <TableCell >
+                            <div >
+                                <h1>Sales</h1>
+                               
                             </div>
 
                         </TableCell>
                         
 
-                        <TableCell className='rightpro'><h1>Action</h1></TableCell>
+                        <TableCell ><h1>Action</h1></TableCell>
                     </TableRow>
                 </TableHead>
-                {rows.map((row) => (
+               
                 <TableBody>
-                    
+                {rows.map((row) => (
 
-                        <TableRow key={row.name} className='tablecontainerss'>
+                        <TableRow key={row.name} className='mainrowtable'>
 
-                            <TableCell className='leftproductlistf'>
+                            <TableCell className=''>
                                 <img alt=' ' src="./media/111.png" className='firsttableimg' />
                             </TableCell>
-                            <TableCell className='producttitle leftproductlist'><h1>{row.Title}</h1> </TableCell>
-                            <TableCell className='purchaseon leftproductlist'><h1>{row.Purchaseon}</h1></TableCell>
-                            <TableCell className='catagory leftproductlist'><h1>{row.Catagory}</h1></TableCell>
-                            <TableCell className='price leftproductlist'><h1>{row.Price}</h1></TableCell>
-                            <TableCell className='totalreviews leftproductlist'><h1>{row.totalreviews}</h1></TableCell>
-                            <TableCell className='totalreviews leftproductlist'><h1>256</h1>
-                            </TableCell>
+                            <TableCell ><h2>{row.Title}</h2> </TableCell>
+                            <TableCell ><h1>#A86DZds</h1></TableCell>
+                            <TableCell ><h1>{row.Catagory}</h1></TableCell>
+                            <TableCell ><h1>www.titile.com</h1></TableCell>
+                            <TableCell >
+                            <div className='pricesection'>
+                            <h4>{row.Price}</h4>
                            
-
-                            <TableCell><div className='tableicons'>
-                                        <img alt=' ' src="./media/110.svg" />
-                                        <img alt=' ' src="./media/113.svg" />
-                                        <img alt=' ' src="./media/112.svg" />
-                                        
-                                       
-                                    </div></TableCell>
+                            </div>
                             
+                            </TableCell>
+                            <TableCell><h1>{row.totalreviews}</h1></TableCell>
+                            <TableCell ><h3>$ 256</h3>
+                            </TableCell>                           
+                           <TableCell><div className='tableicons'>
+                                        <img alt=' ' src="./media/900.svg" />
+                                        <img alt=' ' src="./media/113.svg" />
+                                        <img alt=' ' src="./media/901.svg" />
+                                    </div></TableCell>
                         </TableRow>
-                        <br/>
-                        
                        
-                   
+                        ))}
                 </TableBody>
-                ))}
+                
+               
             </Table>
         </TableContainer>
     );
