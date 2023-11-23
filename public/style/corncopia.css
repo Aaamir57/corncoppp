@@ -5936,7 +5936,7 @@ textarea {
 	justify-content: center;
 	gap: 10px;
 	position: relative;
-	right: 7px;
+	right: 15px;
 	cursor: pointer;
 }
 .dashboardbtn2 img {
@@ -7256,8 +7256,16 @@ gap: 20px;
 	}
 }
 	
+.mainrowtable{
+	width: 100%;
+height: 76px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #FFF;
+box-shadow: 0px 0px 4px 0px rgba(0, 0, 0, 0.22);	
+	
 
-
+}
 .mainrowtable h1 {
 	color: #434343;
 	font-family: Roboto;
@@ -8272,5 +8280,639 @@ flex-shrink: 0;
 @media (max-width:900px) {
 .tablebig{
 	min-width: 900px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.productformmain{
+	display: flex;
+	flex-direction: row;
+}
+.leftproductformsidebar{
+	width: 18%;
+}
+.rightproductform{
+	width: 82%;
+	padding-right: 20px;
+	padding-top: 10px;
+}
+.rightproductformthree{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+}
+.rightproductformthreeleft{
+	flex: 1;
+	margin-top: 20px;
+}
+.rightproductformthreeright{
+	flex: 1;
+}
+.rightproductformthreeleftonee{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+.rightproductformthreeleftonee h1
+{
+	color: #780093;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: left;
+}
+.rightproductformthreeleftonee input
+{
+	border-radius: 7px;
+border: 1px solid #9D40B1;
+width: 95%;
+height: 46px;
+flex-shrink: 0;
+padding-left: 10px;
+text-align: left;
+}
+
+.rightproductformthreelefttwo{
+	display: flex;
+flex-direction: column;
+margin-top: 15px;
+
+}
+.rightproductformthreelefttwo h1{
+	color: #888;
+font-family: Roboto;
+font-size: 14px;
+
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: left;
+}
+.rightproductformthreelefttwo h2{
+	color: #888;
+font-family: Roboto;
+
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: right;
+position: relative;
+right: 5%;
+bottom: 15px;
+}
+
+.rightproductformthreelefttwo textarea{
+	border-radius: 7px;
+border: 1px solid #D3D3D3;
+width: 95%;
+height: 130px;
+resize: none;
+flex-shrink: 0;
+}
+
+
+.rightproductformthreeleftthree{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	
+}
+.rightproductformthreeleftthreeone{
+display: flex;
+justify-content: space-between;
+width: 95%;
+	
+
+	
+}
+.rightproductformthreeleftthreeone div{
+	float: right;
+	
+position: relative;
+top: 0px;
+right: 0px;
+}
+.rightproductformthreeleftthreeone h1{
+	color: #888;
+font-family: Roboto;
+align-items: flex-start;
+float: left;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.rightproductformthreeleftthree input{
+	border-radius: 7px;
+border: 1px solid #D3D3D3;
+width: 95%;
+padding-left: 10px;
+height: 46px;
+flex-shrink: 0;
+}
+
+
+.rightproductformthreeleftfour{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 15px;
+	
+}
+.rightproductformthreeleftfour h1{
+	color: #888;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.aaa{
+	width: 100%;
+}
+.autocoo{
+	
+	width: 95%;
+
+}
+.businesssmainpro{
+	margin-top: 8px;
+}
+.rightproductformthreeleftfive{
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	margin-top: 15px;
+}
+.rightproductformthreeleftfive h1{
+	color: #888;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+
+.priceinputmain{
+	display: flex;
+}
+.pricefirstdiv{
+	width: 51px;
+height: 46px;
+flex-shrink: 0;
+border-radius: 7px;
+border: 1px solid #D3D3D3;
+background: #D3D3D3;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.pricefirstdiv h1{
+	color: #565656;
+font-family: Roboto;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+}
+.priceinputmain{
+	width: 100%;
+}
+.priceseconddiv{
+	width: 95%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	justify-content: space-between;
+	max-width: 95%;
+height: 46px;
+flex-shrink: 0;
+border-radius: 7px;
+border: 1px solid #D3D3D3;
+}
+.priceseconddiv img{
+	width: 30px;
+	height: 35px;
+	flex-shrink: 0;
+	padding-right: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ImageUpload.css */
+
+
+  #fileInput {
+	display: none;
+  }
+  
+  .custom-file-upload {
+
+
+	border-radius: 7px;
+border: 1px dashed #9D40B1;
+background: #FAFAFA;
+width: 100%;
+height: 142px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+padding-left: 0%;
+margin-left: 0%;
+
+position: relative;
+bottom: 20px;
+
+  }
+  .custom-file-upload h1{
+	color: #9D40B1;
+
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+
+  }
+  .custom-file-upload h2{
+	color: #888;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+position: relative;
+bottom: 10px;
+  }
+
+  .preview-image {
+	max-width: 100%;
+	max-height: 100%;
+  }
+  .confirmpassworddd{
+	display: none;
+  }
+  .customfileuploaddivv{
+	display: flex;
+	flex-direction: column;
+  }
+  .customfileuploaddivv img{
+	width: 19px;
+height: 19px;
+flex-shrink: 0;
+position: relative;
+right: -30px;
+margin-bottom: 4px;
+  }
+
+
+  /* Add this to your ImageUpload.css */
+
+.upload-container {
+	display: flex;
+	margin-top: 20px;
+	border: 2px solid red;
+  }
+  
+  .custom-file-uploads {
+	cursor: pointer;
+	
+
+
+	width: 51px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #D9D9D9;
+  }
+  .imagetext{
+	display: flex;
+flex-direction: column-reverse;
+align-items: flex-start;
+justify-content: flex-start;
+  }
+  .image-details {
+display: flex;
+flex-direction: column-reverse;
+align-items: flex-start;
+justify-content: flex-start;
+	font-size: 16px;
+  }
+  
+  /* Additional styling for buttons can be added here */
+  
+
+
+  .cards{
+	border-radius: 7px;
+border: 1px solid #E2E2E2;
+width: 100%;
+height: 304px;
+
+max-height: 100%;
+padding: 3%;
+overflow: hidden;
+
+flex-shrink: 0;
+  }
+  .clicktoopen{
+	border-radius: 7px;
+border: 1px dashed #9D40B1;
+background: #FAFAFA;
+width: 151px;
+height: 123px;
+display: flex;
+align-items: center;
+justify-content: center;
+flex-shrink: 0;
+
+  }
+  .customfileuploaddivv h1{
+	color: #9D40B1;
+text-align: center;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+
+  }
+  .customfileuploaddivv h2{
+	color: #888;
+font-family: Roboto;
+font-size: 12px;
+font-style: normal;
+position: relative;
+bottom: 7px;
+font-weight: 500;
+line-height: normal;
+  }
+  .boximage{
+	max-width: 100%;
+	max-height: 100%;
+  }
+.mainimagefromgallery{
+	display: flex;
+	justify-content: space-between;
+}
+ .imagefromgallery{
+	width: 145px;
+height: 123px;
+flex-shrink: 0;
+border-radius: 7px;
+border: 1px solid #D9D9D9;
+
+display: flex;
+align-items: center;
+justify-content: center;
+ }
+
+
+ .imagesizemaindiv{
+	display: flex;
+flex-direction: row;
+justify-content: space-between;
+margin-bottom: 10px;
+ }
+ .contentone{
+	display: flex;
+flex-direction: row;
+gap: 6px;
+ }
+.deltetwo{
+	align-items: flex-end;
+	justify-content: flex-end;
+	flex: 1;
+}
+ .imagesizedivvbox1{
+	width: 51px;
+height: 40px;
+flex-shrink: 0;
+border-radius: 6px;
+background: #D9D9D9;
+ }
+ .namesimagesdiv{
+	display: flex;
+	flex-direction: column;
+	align-items: left;
+	justify-content: flex-start;
+ }
+ .namesimagesdiv h1{
+	color: #5B5B5B;
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+ }
+ .namesimagesdiv h2{
+	color: #5B5B5B;
+	font-family: Roboto;
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: normal;
+	text-align: left;
+ }
+
+ .uploads{
+	color: #888;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: left;
+margin-top: 9px;
+ }
+
+
+
+ .productlineonediv{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	margin-top: 14px;
+ }
+ .productlineonediv h1{
+	color: #888;
+font-family: Roboto;
+font-size: 14px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+text-align: left;
+margin-top: 7px;
+ }
+ .productlineonediv img{
+	width: 25px;
+	height: 25px;
+	position: relative;
+	top: 4px;
+	flex-shrink: 0;
+ }
+
+
+
+ .productformbottombtn{
+	display: flex;
+	flex-direction: row;
+	gap: 10px;
+	justify-content: flex-end;
+	align-items: flex-end;
+	margin-top: 20%;
+	
+	margin-bottom: 5%;
+ }
+.discord{
+	border-radius: 7px;
+border: 1px solid #E2E2E2;
+background: #EDEDED;
+width: 113px;
+height: 45px;
+flex-shrink: 0;
+display: flex;
+align-items: center;
+justify-content: center;
+
+}
+.discord h1{
+	color: #8F8F8F;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+top: 3px;
+}
+
+.discord1{
+	width: 188px;
+height: 45px;
+flex-shrink: 0;
+border-radius: 7px;
+background: #3F0065;
+display: flex;
+border: 1px solid #3F0065;
+align-items: center;
+justify-content: center;
+}
+.discord1 h1{
+	color: #FFF;
+font-family: Poppins;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+position: relative;
+top: 3px;
+}
+
+
+@media (max-width:1220px) {
+	.rightproductform{
+		min-width: 100%;
+		padding: 3%;
+	}.rightproductformone{
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+	}
+	.rightproductformtwo{
+		margin-top: 2px;
+	}.rightproductformthree{
+		display: flex;
+	}
+	.rightproductformthreeleft{
+		width: 50%;
+	}.rightproductformthreeright{
+		width: 50%;
+	}
+	
+	
+}
+
+
+@media (max-width:790px) {
+	.rightproductformthree{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.rightproductformthreeleft{
+		width: 90%;
+	}.rightproductformthreeright{
+		width: 80%;
+	}.rightproductformone{
+		padding-right: 6%;
+	}.cards{
+		height: 100%;
+		width: 100%;
+	
+		overflow: hidden;
+		
+	}
+}
+@media (max-width:500px) {
+	.rightproductformthree{
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+	.rightproductformthreeleft{
+		width: 100%;
+	}.rightproductformthreeright{
+		width: 90%;
+	}.rightproductformone{
+		padding-right: 6%;
+	}
+}
+
+
+@media (min-width:1221px) {
+.rightproductform{
+	padding-right: 20px;
 }
 }

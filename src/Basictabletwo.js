@@ -71,9 +71,9 @@ export default function Basictabletwo() {
                         <TableCell ><h1>Action</h1></TableCell>
                     </TableRow>
                 </TableHead>
-               
-                <TableBody>
                 {rows.map((row) => (
+                <TableBody>
+              
 
                         <TableRow key={row.name} className='mainrowtable'>
 
@@ -100,10 +100,11 @@ export default function Basictabletwo() {
                                         <img alt=' ' src="./media/901.svg" />
                                     </div></TableCell>
                         </TableRow>
+                        <br/>
                        
-                        ))}
+                       
                 </TableBody>
-                
+                ))}
                
             </Table>
         </TableContainer>

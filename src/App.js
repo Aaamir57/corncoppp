@@ -18,6 +18,7 @@ import Myproducts from './Myproducts';
 import Dashboard from './Dashboard';
 import Marketplace from './Marketplace';
 import Mainproducts from './Mainproducts';
+import Productform from './Productform';
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
       <Router>
         <Routes>
           <Route path="/dashboard" exact element={<Dashboard />} />
+          <Route path="/productform" exact element={<Productform />} />
           <Route path="/myproducts" exact element={<Myproducts />} />
           <Route path="/productview" exact element={<Productview />} />
           <Route path="/productpage" exact element={<Productpage />} />
