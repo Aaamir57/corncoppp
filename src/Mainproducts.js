@@ -116,7 +116,7 @@ export default function Mainproducts() {
 
 
                                 <Productonespeifictwo imageUrl="./media/Line 7.svg" h1text="Total Buyerssss" imageurl2="./media/Vector(22).svg"
-                                    image1="./media/Group 203.svg"
+                                    image1="./media/Group 203(3).svg"
 
                                 />
                                 <Productonespeifictwo imageUrl="./media/Line 7(1).svg" h1text="Total Buyers" imageurl2="./media/Vector(23).svg"

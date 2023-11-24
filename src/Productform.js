@@ -131,8 +131,10 @@ export default function Productform() {
                                 <h1>Product Images</h1>
                                 <img alt=' ' src="./media/ei_exclamation.svg" />
                             </div>
-                            
-                            <ImageUpload />
+                            <div className='imageuploadmainn'> 
+                                <ImageUpload />
+                            </div>
+                           
                             <div className='productlineonediv'>
                                 <h1>Product Demo</h1>
                                 <img alt=' ' src="./media/ei_exclamation.svg" />

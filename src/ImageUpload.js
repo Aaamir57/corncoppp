@@ -1,17 +1,35 @@
-import React, { useRef, useState } from 'react';
+import React, { useRef, useState, useEffect } from 'react';
+import Linearsprogress from './Linearsprogress';
 
 export default function ImageUpload() {
   const [images, setImages] = useState([]);
   const [isDragging, setIsDragging] = useState(false);
+  const [isUploading, setIsUploading] = useState(false);
   const fileInputRef = useRef(null);
+
+  useEffect(() => {
+    setIsUploading(false); // Hide the progress bar when images are uploaded
+  }, [images]);
 
   function selectFiles() {
     fileInputRef.current.click();
   }
 
+  async function uploadImages() {
+    setIsUploading(true);
+
+    // Simulate image upload delay (replace this with your actual upload logic)
+    await new Promise((resolve) => setTimeout(resolve, 2000));
+
+    // After the upload is complete, you can set the images
+    setIsUploading(false);
+  }
+
   function onFileSelect(event) {
     const files = event.target.files;
     if (files.length === 0) return;
+
+    uploadImages(); // Trigger the image upload process
 
     for (let i = 0; i < files.length; i++) {
       if (files[i].type.split('/')[0] !== 'image') continue;
@@ -89,45 +107,33 @@ export default function ImageUpload() {
               style={{ display: 'none' }}
             />
           </div>
-
+          {isUploading && <Linearsprogress />}
           {images.map((image, index) => (
-            <div className='imagefromgallery'>
-              <div className='image' key={index}>
-                {/* <span className='delete' onClick={() => deleteImage(index)}>
-                  &times;
-                </span> */}
+            <div className='imagefromgallery' key={index}>
+              <div className='image'>
                 <img src={image.url} alt={image.name} className='boximage' />
-                {/* <p>{image.name}</p>
-                <p>{image.size} bytes</p> */}
               </div>
             </div>
           ))}
         </div>
         <h1 className='uploads'>uploads</h1>
-        
 
-          {images.map((image, index) => (
-            <div className='imagesizemaindiv'>
-
-
-              <div className='image contentone' key={index}>
-                <div className='imagesizedivvbox1'>
-
-                </div>
-                <div className='namesimagesdiv'>
-                  <h1>{image.name}</h1>
-                  <h2>{image.size} bytes</h2>
-                </div>
-              </div>
-              <div className='image' key={index} >
-                <span className='delete deltetwo' onClick={() => deleteImage(index)} >
-                <img alt=' ' src="./media/901.svg" />
-                </span>
+        {images.map((image, index) => (
+          <div className='imagesizemaindiv' key={index}>
+            <div className='image contentone'>
+              <div className='imagesizedivvbox1'></div>
+              <div className='namesimagesdiv'>
+                <h1>{image.name}</h1>
+                <h2>{image.size} bytes</h2>
               </div>
             </div>
-          ))}
- 
-
+            <div className='image'>
+              <span className='delete deltetwo' onClick={() => deleteImage(index)}>
+                <img alt=' ' src="./media/901.svg" />
+              </span>
+            </div>
+          </div>
+        ))}
       </div>
       <div className='container'></div>
     </div>

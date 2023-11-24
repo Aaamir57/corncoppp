@@ -11,6 +11,10 @@ export default function Sidebar() {
 function handledashboard(){
     navigate("/")
 }
+
+function handlesetting(){
+    navigate("/setting")
+}
     return (
         <div>
             <div class="leftsidebararea">
@@ -39,7 +43,7 @@ function handledashboard(){
                             <a>Trends</a>
                         </div>
                     </div>
-                    <div className='dashboard-lasttwo'>
+                    <div className='dashboard-lasttwo' onClick={handlesetting}>
                         <div className='dashbord-ul'>
                             <img alt=' ' src="./media/205.svg" />
                             <a>Settings</a>
