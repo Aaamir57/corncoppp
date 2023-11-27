@@ -16,6 +16,10 @@ function handledashboard(){
 function handlesetting(){
     navigate("/setting")
 }
+
+function handleinbox(){
+    navigate("/inbox")
+}
     return (
         <div>
             <div class="leftsidebararea">
@@ -27,7 +31,7 @@ function handlesetting(){
                         <a>Dashboard</a>
                     </div>
                     <div className='dashboard-firstfive'>
-                        <div className='dashbord-ul'>
+                        <div className='dashbord-ul' onClick={handleinbox}>
                             <img alt=' ' src="./media/201.svg" />
                             <a>Inbox</a>
                         </div>

@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import Sidebartwo from './Sidebartwo';
 import ImageUpload from './ImageUpload';
+import Dropzone from 'react-dropzone';
+import Dropzoneer from "./Dropzoneer"
 import Switcher from './Switcher';
 import Autocompletes from './Autocompletes';
 
@@ -134,39 +136,12 @@ export default function Productform() {
                             <div className='imageuploadmainn'> 
                                 <ImageUpload />
                             </div>
-                           
+                          
                             <div className='productlineonediv'>
                                 <h1>Product Demo</h1>
                                 <img alt=' ' src="./media/ei_exclamation.svg" />
                             </div><br />
-                            <div className="">
-                                {!previewImage && (
-                                    <>
-                                        <label htmlFor="fileInput" className="custom-file-upload">
-                                            <div className='customfileuploaddivv'>
-                                                <img alt=' ' src="./media/0099.svg" />
-                                                <h1>Click to upload</h1><br />
-                                                <h2>or drag and drop</h2>
-                                            </div>
-
-                                        </label>
-                                        <input
-                                            key={fileInputKey}
-                                            type="file"
-                                            id="fileInput"
-                                            onChange={handleFileSelect}
-                                        />
-                                    </>
-                                )}
-
-                                {previewImage && (
-                                    <div className="custom-file-upload">
-                                        <img src={previewImage} alt="Preview" className="preview-image " />
-                                        {/* Handle the image upload when this button is clicked */}
-                                        <button onClick={handleImageUpload} className='confirmpassworddd'>Confirm Upload</button>
-                                    </div>
-                                )}
-                            </div>
+                            <Dropzoneer/>
                             <div className='productformbottombtn'>
                                 <button className='discord'>
                                     <h1>Discard</h1>
@@ -176,11 +151,6 @@ export default function Productform() {
                                 </button>
 
                             </div>
-
-
-
-
-
 
                         </div>
 

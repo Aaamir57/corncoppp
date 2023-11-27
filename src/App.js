@@ -20,6 +20,7 @@ import Marketplace from './Marketplace';
 import Mainproducts from './Mainproducts';
 import Productform from './Productform';
 import Setting from './Setting';
+import Inbox from './Inbox';
 
 function App() {
   return (
@@ -28,6 +29,7 @@ function App() {
       
       <Router>
         <Routes>
+          <Route path="/inbox" exact element={<Inbox />} />
           <Route path="/setting" exact element={<Setting />} />
           <Route path="/dashboard" exact element={<Dashboard />} />
           <Route path="/productform" exact element={<Productform />} />

@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-export default function Sidebar() {
+export default function Sidebarinbox() {
     
     const navigate = useNavigate();
     function handleproduct() {
@@ -25,14 +25,17 @@ function handleinbox(){
                 <div className='sidebar' id="sidebar">
                     <img alt=' ' src="./media/1.png" className='firstdashboardimg' />
 
-                    <div className='dashboardbtn'  onClick={handledashboard}>
-                        <img alt=' ' src="./media/202.svg" />
+                    <div className='dashboardbtn11'  onClick={handledashboard}>
+                        <img alt=' ' src="./media/Vector(34).svg" />
                         <a>Dashboard</a>
                     </div>
                     <div className='dashboard-firstfive'>
-                        <div className='dashbord-ul'  onClick={handleinbox}>
-                            <img alt=' ' src="./media/201.svg" />
+                        <div className='dashboardbtn2'  onClick={handleinbox}>
+                            <img alt=' ' src="./media/tabler_messages(1).svg" />
                             <a>Inbox</a>
+                            <div className='inboxdiv'> 
+                                    <h1>5</h1>
+                            </div>
                         </div>
                         <div className='dashbord-ul ' onClick={handleproduct}  >
                             <img alt=' ' src="./media/203.svg" />
@@ -52,7 +55,7 @@ function handleinbox(){
                             <img alt=' ' src="./media/205.svg" />
                             <a>Settings</a>
                         </div>
-                        <div className='dashbord-ul'>
+                        <div className='dashbord-ul' >
                             <img alt=' ' src="./media/206.svg" />
                             <a>Logout</a>
                         </div>
