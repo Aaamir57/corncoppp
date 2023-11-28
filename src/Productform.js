@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
 import Sidebartwo from './Sidebartwo';
 import ImageUpload from './ImageUpload';
-import Dropzone from 'react-dropzone';
+
 import Dropzoneer from "./Dropzoneer"
 import Switcher from './Switcher';
 import Autocompletes from './Autocompletes';
+import Imageuploadtwo from './Imageuploadtwo';
 
 export default function Productform() {
     function toggleSidebar() {
@@ -134,7 +135,7 @@ export default function Productform() {
                                 <img alt=' ' src="./media/ei_exclamation.svg" />
                             </div>
                             <div className='imageuploadmainn'> 
-                                <ImageUpload />
+                                <Imageuploadtwo />
                             </div>
                           
                             <div className='productlineonediv'>

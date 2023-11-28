@@ -69,7 +69,11 @@ export default function ImageUpload() {
   }
 
   const openFileInput = () => {
-    fileInputRef.current.click();
+    if (fileInputRef.current) {
+      // Reset the file input value before clicking to ensure onChange fires even if the same file is selected
+      fileInputRef.current.value = '';
+      fileInputRef.current.click();
+    }
   };
 
   return (
@@ -92,9 +96,9 @@ export default function ImageUpload() {
           <div className='clicktoopen' onClick={openFileInput}>
             <label htmlFor='file' className='customfileuploaddivv'>
               <img alt=' ' src="./media/0099.svg" />
-              <h1>Click to upload</h1>
-              <br />
-              <h2>or drag and drop</h2>
+              <p>Click to upload</p>
+              
+              <span>or drag and drop</span>
             </label>
             <input
               name='file'

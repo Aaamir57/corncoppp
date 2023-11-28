@@ -1,47 +1,63 @@
 import React, { useState } from 'react';
 
 const VideoPlayer = () => {
-  const [videoSrc, setVideoSrc] = useState('');
+  const [videos, setVideos] = useState([]);
   const videoRef = React.createRef();
 
   const handleFileChange = (event) => {
     const file = event.target.files[0];
     const media = URL.createObjectURL(file);
-    setVideoSrc(media);
-    videoRef.current.src = media;
-    videoRef.current.style.display = 'block';
+
+    setVideos((prevVideos) => [
+      ...prevVideos,
+      { name: file.name, src: media },
+    ]);
+
     // Note: Autoplay may not work on some browsers without user interaction.
     // Therefore, we wait for user interaction to start playing the video.
+  };
+
+  const handleDelete = (index) => {
+    setVideos((prevVideos) => prevVideos.filter((_, i) => i !== index));
   };
 
   const handleUploadClick = () => {
     // Trigger the file input click event
     document.getElementById('input').click();
-    // Start playing the video once the user clicks to upload
-    videoRef.current.play().catch(error => console.error(error));
   };
 
   return (
-    <div className='custom-file-upload' onClick={handleUploadClick}>
-      <div className='customfileuploaddivv'>
+    <div className='custom-file-upload'>
+      {videos.length === 0 && <div className='customfileuploaddivv' onClick={handleUploadClick}>
         <img alt=' ' src="./media/0099.svg" />
-        <h1>Click to upload</h1><br />
-        <h2>or drag and drop</h2>
+        <p>Click to upload</p>
+        <span>or drag and drop </span>
+        <input
+          type="file"
+          id="input"
+          name="input_video"
+          accept="video/mp4, video/mov"
+          onChange={handleFileChange}
+          style={{ display: 'none' }}
+        />
+      </div>}
+      <div className="video-list">
+        {videos.map((video, index) => (
+          <div key={index} className="video-item videosec">
+            <div className='videomain'>
+              <div className='videowboxdiv'></div>
+              <div className='videobox'> </div>
+            </div>
+
+            <p>{video.name}</p>
+            <div onClick={() => handleDelete(index)}>
+              <img alt=' ' src="./media/901.svg" />
+
+            </div>
+
+          </div>
+        ))}
       </div>
-      <input
-        type="file"
-        id="input"
-        name="input_video"
-        accept="video/mp4, video/mov"
-        onChange={handleFileChange}
-        style={{ display: 'none' }}
-      />
-      <video
-        id="video"
-        controls
-        style={{ display: 'none', width: '100%', height: '100%' }}
-        ref={videoRef}
-      ></video>
     </div>
   );
 };

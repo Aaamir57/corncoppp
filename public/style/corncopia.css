@@ -8722,17 +8722,10 @@ textarea {
 
 /* Add this to your ImageUpload.css */
 
-.upload-container {
-	display: flex;
-	margin-top: 20px;
-	border: 2px solid red;
-}
+
 
 .custom-file-uploads {
 	cursor: pointer;
-
-
-
 	width: 51px;
 	height: 40px;
 	flex-shrink: 0;
@@ -8768,8 +8761,7 @@ textarea {
 	border: 1px solid #E2E2E2;
 	width: 100%;
 	height: 50%;
-display: flex;
-	flex-wrap: wrap;
+display: flex;	flex-wrap: wrap;
 
 
 	padding: 3%;
@@ -8791,7 +8783,7 @@ display: flex;
 
 }
 
-.customfileuploaddivv h1 {
+.customfileuploaddivv p {
 	color: #9D40B1;
 	text-align: center;
 	font-family: Roboto;
@@ -8802,7 +8794,7 @@ display: flex;
 
 }
 
-.customfileuploaddivv h2 {
+.customfileuploaddivv span {
 	color: #888;
 	font-family: Roboto;
 	font-size: 12px;
@@ -8810,6 +8802,8 @@ display: flex;
 	position: relative;
 	bottom: 7px;
 	font-weight: 500;
+	position: relative;
+	bottom: 15px;
 	line-height: normal;
 }
 
@@ -8820,9 +8814,18 @@ display: flex;
 
 .mainimagefromgallery {
 	display: flex;
-	flex-wrap: wrap;
 	justify-content: space-between;
+	width: 100%;
+	flex-wrap: wrap;
+	height: auto;
 	
+	
+}
+
+.uploadmaindiv{
+	display: flex;
+	width: 100%;
+	flex-direction: column;
 }
 
 .imagefromgallery {
@@ -8837,6 +8840,7 @@ display: flex;
 overflow: hidden;
 	align-items: center;
 	justify-content: center;
+	
 }
 
 
@@ -10420,4 +10424,24 @@ line-height: normal;
 
 }
 
+}
+
+.videosec{
+	display: flex;
+	justify-content: space-evenly;
+	gap: 15px;
+	width: 100%;
+	padding: 3%;
+}
+.videomain{
+	display: flex;
+	flex-direction: column;
+}
+.videobox{
+	width: 50px;
+	height: 50px;
+	border-radius:6px ;
+	background: black;
+	position: relative;
+	bottom: 5px;
 }
