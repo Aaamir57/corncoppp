@@ -1,6 +1,6 @@
 
-import Footer from './Footer'
-import Headerlogin from './Headerlogin'
+import Footer from '../Components/Footer'
+import Headerlogin from '../Components/Headerlogin'
 import React, { useEffect, useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 

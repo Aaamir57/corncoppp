@@ -1,9 +1,9 @@
 import React from 'react'
-import Slidebarthree from './Slidebarthree'
-import Textarea from './Textareas';
-import Autocompletes from './Autocompletes';
-import Switcher from './Switcher';
-import Switchertwo from './Switchertwo';
+import Slidebarthree from '../Components/Slidebarthree'
+import Textarea from '../Components/Textareas';
+import Autocompletes from '../Components/Autocompletes';
+import Switcher from '../Components/Switcher';
+import Switchertwo from '../Components/Switchertwo';
 export default function Setting() {
     function toggleSidebar() {
         var sidebar = document.getElementById('sidebar');

@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import "./App.css";
-import Linearsprogress from './Linearsprogress';  // Import the Linearsprogress component
+
+import Linearsprogress from './/Linearsprogress';  // Import the Linearsprogress component
 
 const Imageuploadtwo = () => {
   const [selectedImages, setSelectedImages] = useState([]);
