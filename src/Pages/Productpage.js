@@ -1,6 +1,6 @@
 
-import Footer from './Footer';
-import Header from './Header'
+import Footer from '../Components/Footer';
+import Header from '../Components/Header'
 import React, { useState } from 'react';
 
 export default function Productpage() {

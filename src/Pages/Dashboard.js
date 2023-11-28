@@ -1,7 +1,7 @@
 import React from 'react'
-import Graph from './Graph';
-import Chart from './Chart';
-import Productone from './Productone';
+import Graph from '../Components/Graph';
+import Chart from '../Components/Chart';
+import Productone from '../Components/Productone';
 
 export default function Dashboard() {
     function toggleSidebar() {

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
-import Basictabletwo from './Basictabletwo';
-import Paginationer from './Paginationer';
-import Sidebartwo from './Sidebartwo';
+import Basictabletwo from '../Components/Basictabletwo';
+import Paginationer from '../Components/Paginationer';
+import Sidebartwo from '../Components/Sidebartwo';
 
 export default function Marketplace() {
     function toggleSidebar() {

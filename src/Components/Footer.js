@@ -28,7 +28,7 @@ export default function Footer() {
                     </div>
                     <div class="col-lg-3 col-mid-4 col-sm-4 first1" >
                         <div class="footer lastfooter1">
-                            <a href=""> Links</a>
+                            <a href="#"> Links</a>
                             <a href="">Home</a>
                             <a href="">Privacy Policy</a>
                             <a href="">Terms & Conditions</a>

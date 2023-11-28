@@ -1,8 +1,8 @@
 import React from 'react'
-import Sidebar from './Sidebar'
-import Paginationer from './Paginationer';
+import Sidebar from '../Components/Sidebar'
+import Paginationer from '../Components/Paginationer';
 import { Pie } from 'react-chartjs-2';
-import Productonespeifictwo from './Productonespeifictwo';
+import Productonespeifictwo from '../Components/Productonespeifictwo';
 
 export default function Mainproducts() {
     function toggleSidebar() {

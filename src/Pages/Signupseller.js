@@ -1,7 +1,7 @@
 
-import Header from './Header'
-import Footer from './Footer'
-import React, { useEffect, useState } from 'react'
+import Header from '../Components/Header'
+import Footer from '../Components/Footer'
+import React, {  useState } from 'react'
 import { useNavigate } from 'react-router-dom';
 
 export default function Signupseller() {
@@ -44,9 +44,9 @@ export default function Signupseller() {
 
 
     async function sellersignup() {
-        // if (!validateForm()) {
-        //     return;
-        // }
+         if (!validateForm()) {
+             return;
+         }
 
         let item = {
             firstname, lastname, email, phone, houseno, source,

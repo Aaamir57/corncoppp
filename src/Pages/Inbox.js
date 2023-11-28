@@ -1,7 +1,7 @@
 import React from 'react'
 
-import Sidebarinbox from './Sidebarinbox'
-import Chatinboxname from './Chatinboxname';
+import Sidebarinbox from '../Components/Sidebarinbox'
+import Chatinboxname from '../Components/Chatinboxname';
 
 export default function Inbox() {
   function toggleSidebar() {

@@ -1,26 +1,25 @@
 
-import './App.css';
 
-import Signupseller from './Signupseller';
+import Signupseller from './Pages/Signupseller';
 
-import Login from './Login';
-import Signup from './Signup';
-import Signupone from './Signupone';
+import Login from './Pages/Login';
+import Signup from './Pages/Signup';
+import Signupone from './Pages/Signupone';
 import {
   BrowserRouter as Router,
   Routes,
   Route,
 } from 'react-router-dom';
-import Landingpage from './Landingpage';
-import Productpage from './Productpage';
-import Productview from './Productview';
-import Myproducts from './Myproducts';
-import Dashboard from './Dashboard';
-import Marketplace from './Marketplace';
-import Mainproducts from './Mainproducts';
-import Productform from './Productform';
-import Setting from './Setting';
-import Inbox from './Inbox';
+import Landingpage from './Pages/Landingpage';
+import Productpage from './Pages/Productpage';
+import Productview from './Pages/Productview';
+import Myproducts from './Pages/Myproducts';
+import Dashboard from './Pages/Dashboard';
+import Marketplace from './Pages/Marketplace';
+import Mainproducts from './Pages/Mainproducts';
+import Productform from './Pages/Productform';
+import Setting from './Pages/Setting';
+import Inbox from './Pages/Inbox';
 
 function App() {
   return (

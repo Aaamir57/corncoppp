@@ -1,11 +1,11 @@
 import React, { useState } from 'react';
-import Sidebartwo from './Sidebartwo';
-import ImageUpload from './ImageUpload';
+import Sidebartwo from '../Components/Sidebartwo';
+import ImageUpload from '../Components/ImageUpload';
 
-import Dropzoneer from "./Dropzoneer"
-import Switcher from './Switcher';
-import Autocompletes from './Autocompletes';
-import Imageuploadtwo from './Imageuploadtwo';
+import Dropzoneer from "../Components/Dropzoneer"
+import Switcher from '../Components/Switcher';
+import Autocompletes from '../Components/Autocompletes';
+import Imageuploadtwo from '../Components/Imageuploadtwo';
 
 export default function Productform() {
     function toggleSidebar() {
